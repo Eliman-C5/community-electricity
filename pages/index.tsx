@@ -4,6 +4,8 @@ import { AboutSection } from '../components/HomePage/AboutSection'
 import { DappSection } from '../components/HomePage/DappSection'
 import { InnovativeServices } from '../components/HomePage/InnovativeServices'
 import { ElectricAccount } from '../components/HomePage/ElectricAccount'
+import { Partners } from '../components/HomePage/Partners'
+import { Media } from '../components/HomePage/Media'
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <img src="/images/video.png" alt="" />
       </div>
       <ElectricAccount />
+      <Partners />
+      <Media />
     </>
   )
 }

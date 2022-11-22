@@ -71,3 +71,21 @@ export const dappSection = {
     },
   ]
 }
+
+export const mediaImg = {
+  first: [
+    {id: 1, src: '/images/media/Smartenergy.png', alt: 'Smartenergy'},
+    {id: 2, src: '/images/media/Microgrid.png', alt: 'Microgrid'},
+    {id: 3, src: '/images/media/energy storage.png', alt: 'energy storage'},
+  ],
+  second: [
+    {id: 1, src: '/images/media/Tahoo.png', alt: 'Yahoo'},
+    {id: 1, src: '/images/media/Medium.png', alt: 'Medium'},
+    {id: 1, src: '/images/media/The verge.png', alt: 'The verge'},
+  ],
+  third: [
+    {id: 1, src: '/images/media/Cision.png', alt: 'Cision'},
+    {id: 1, src: '/images/media/Vox.png', alt: 'Vox'},
+    {id: 1, src: '/images/media/Coindesk.png', alt: 'Coindesk'},
+  ],
+}

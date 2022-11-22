@@ -35,7 +35,10 @@ export const Navbar = () => {
   const {spanishIsActive, setSpanishIsActive} = useContext( LanguageContext )
 
   return (
-    <nav className='max-w-[1441px] mx-auto bg-white flex justify-around h-[76px]'>
+    <nav className='bg-white relative z-50'>
+    
+      <div className="max-w-[1441px] h-[76px] mx-auto flex justify-around">
+        
         <Link href={'/'} className='flex items-center'>
           <img
             src="/images/logo.png"
@@ -43,6 +46,7 @@ export const Navbar = () => {
             className="cursor-pointer w-[138px] h-[48px]"
           />
         </Link>
+        
         <div className="flex items-center gap-10 pl-12">
         {
           links.map(link => (
@@ -52,6 +56,7 @@ export const Navbar = () => {
           ))
         }
         </div>
+        
         {/* Volverlo un componente */}
         <button 
           className='text-white bg-black my-auto h-[33px] px-[20px]'
@@ -59,6 +64,9 @@ export const Navbar = () => {
         >
           Contact us
         </button>
+        
+      </div>
+      
     </nav>
   )
 }

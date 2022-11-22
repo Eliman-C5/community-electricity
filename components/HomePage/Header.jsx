@@ -9,9 +9,12 @@ export const Header = () => {
 
   return (
       // Optimizar codigo de tailwind
-      <div className='bg-[url("/images/header.png")] bg-center bg-no-repeat bg-cover h-[90vh] grid place-content-center max-w-[1441px] mx-auto'>
+      // bg-[url("/images/header.mp4")] bg-center bg-no-repeat bg-cover 
+      <div className='min-h-[680px] max-h-[837px] grid place-content-center mx-auto relative'>
+      
+        <video src="/images/header.mp4" autoPlay muted loop className='video-background'></video>
     
-        <div className="w-4/5 mx-auto">
+        <div className="w-4/5 mx-auto z-10 relative">
       
           <h1 className='title text-center'>
             {spanishIsActive ? headerTitle.esp : headerTitle.eng}
