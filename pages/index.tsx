@@ -6,6 +6,7 @@ import { InnovativeServices } from '../components/HomePage/InnovativeServices'
 import { ElectricAccount } from '../components/HomePage/ElectricAccount'
 import { Partners } from '../components/HomePage/Partners'
 import { Media } from '../components/HomePage/Media'
+import { Footer } from '../components/Footer'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <ElectricAccount />
       <Partners />
       <Media />
+      <Footer />
     </>
   )
 }
