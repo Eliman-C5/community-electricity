@@ -3,7 +3,7 @@ import Section from './Wrappers/NormalAndFadeInSection'
 export const Footer = () => {
   return (
     <Section>
-      <div className="flex gap-28 py-16">
+      <div className="flex gap-28 py-16 justify-center">
       
         <div className="">
           <img src="/images/cubos-footer.png" alt="" className='w-[236px]' />
@@ -20,7 +20,7 @@ export const Footer = () => {
         </div>
       </div>
       
-      <p className="">We are creating the infrastructure and mechanisms to make impact sexy, personal, and material.</p>
+      <p className="text-center">We are creating the infrastructure and mechanisms to make impact sexy, personal, and material.</p>
     </Section>
   )
 }
