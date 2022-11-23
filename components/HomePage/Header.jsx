@@ -14,18 +14,18 @@ export const Header = () => {
       
         <video src="/images/header.mp4" autoPlay muted loop className='video-background'></video>
     
-        <div className="w-4/5 mx-auto z-10 relative">
+        <div className="w-11/12 mx-auto z-10 relative">
       
           <h1 className='title text-center'>
             {spanishIsActive ? headerTitle.esp : headerTitle.eng}
           </h1>
       
-          <p className='text-center'>
+          <p className='text-center my-4'>
             {spanishIsActive ? headerSubtitle.esp : headerSubtitle.eng}
           </p>
           
           <div className="flex justify-around my-5">
-            <span className='font-semibold'>{spanishIsActive ? 'Aprender más' : 'Learn more'}</span>
+            <span className='font-semibold'>{spanishIsActive ? 'Saber más >' : 'Learn more >'} </span>
             <span className='font-semibold'>{spanishIsActive ? 'Comprar' : 'Buy'}</span>
           </div>
         

@@ -17,9 +17,7 @@ export default function Home() {
       <DappSection />
       <InnovativeServices />
       {/* Solo para completar maquetado, pero se volverá un componente */}
-      <div className="grid place-content-center my-[80px]">
-        <img src="/images/video.png" alt="" />
-      </div>
+      
       <ElectricAccount />
       <Partners />
       <Media />

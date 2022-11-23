@@ -29,9 +29,10 @@ export const InnovativeServices = () => {
       </h2>
       
       <div className="flex my-[60px] relative justify-center">
-        <img src="/images/innovative-1.png" alt="" className='w-full h-full max-w-[568px]' />
-        <img src="/images/innovative-2.png" alt="" className='w-full h-full max-w-[568px]'/>
-        <img src="/images/glu logo.png" alt="" className='w-[133px] h-[124px] absolute bottom-0' />
+      {/* w-full h-full max-w-[568px] */}
+        <img src="/images/innovative-1.png" alt="" className='w-[350px] h-full xl:w-full xl:max-w-[568px]' />
+        <img src="/images/innovative-2.png" alt="" className='w-[350px] h-full xl:w-full xl:max-w-[568px]'/>
+        <img src="/images/glu logo.png" alt="" className='h-[80px] xl:w-[133px] xl:h-[124px] absolute bottom-0' />
       </div>
       
       <div className="flex justify-between">
@@ -48,6 +49,10 @@ export const InnovativeServices = () => {
         <h2 className='title'>Internet</h2>
         <h2 className='title'>{spanishIsActive? 'energía' : 'energy'}</h2>
         <h2 className='title'>{spanishIsActive? 'servicios de red' : 'grid services'}</h2>
+      </div>
+      
+      <div className="grid place-content-center my-[80px]">
+        <img src="/images/video.png" alt="" />
       </div>
     </Section>
   )
