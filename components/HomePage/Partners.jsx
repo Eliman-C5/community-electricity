@@ -9,18 +9,18 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const pictures = [
-  {id: 1, src: '/images/partners/Energy coalition.png', alt: 'Energy coalition'},
-  {id: 2, src: '/images/partners/California energy.png', alt: 'California energy'},
-  {id: 3, src: '/images/partners/Ucla.png', alt: 'Ucla'},
-  {id: 4, src: '/images/partners/CPA.png', alt: 'CPA'},
-  {id: 5, src: '/images/partners/pivot energy.png', alt: 'pivot energy'},
-  {id: 6, src: '/images/partners/Aclima.png', alt: 'Aclima'},
-  {id: 7, src: '/images/partners/Greencommuter.png', alt: 'Greencommuter'},
-  {id: 8, src: '/images/partners/google.png', alt: 'google'},
-  {id: 9, src: '/images/partners/splight.png', alt: 'splight'},
-  {id: 10, src: '/images/partners/grid.png', alt: 'grid'},
-  {id: 11, src: '/images/partners/arup.png', alt: 'arup'},
-  {id: 12, src: '/images/partners/bluesky energy.png', alt: 'bluesky energy'},
+  {id: 1, src: '/images/partners/Energy coalition.svg', alt: 'Energy coalition'},
+  {id: 2, src: '/images/partners/California energy.svg', alt: 'California energy'},
+  {id: 3, src: '/images/partners/Ucla.svg', alt: 'Ucla'},
+  {id: 4, src: '/images/partners/CPA.svg', alt: 'CPA'},
+  {id: 5, src: '/images/partners/pivot energy.svg', alt: 'pivot energy'},
+  {id: 6, src: '/images/partners/Aclima.svg', alt: 'Aclima'},
+  {id: 7, src: '/images/partners/Greencommuter.svg', alt: 'Greencommuter'},
+  {id: 8, src: '/images/partners/google.svg', alt: 'google'},
+  {id: 9, src: '/images/partners/splight.svg', alt: 'splight'},
+  {id: 10, src: '/images/partners/grid.svg', alt: 'grid'},
+  {id: 11, src: '/images/partners/arup.svg', alt: 'arup'},
+  {id: 12, src: '/images/partners/bluesky energy.svg', alt: 'bluesky energy'},
 ]
 
 export const Partners = () => {

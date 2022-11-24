@@ -14,9 +14,9 @@ export const Header = () => {
       
         <video src="/images/header.mp4" autoPlay muted loop className='video-background'></video>
     
-        <div className="w-11/12 mx-auto z-10 relative">
+        <div className="w-full md:w-11/12 mx-auto z-10 relative">
       
-          <h1 className='title text-center'>
+          <h1 className='title-mobile md:title text-center'>
             {spanishIsActive ? headerTitle.esp : headerTitle.eng}
           </h1>
       

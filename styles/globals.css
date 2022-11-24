@@ -16,6 +16,12 @@ body {
   line-height: 40px;
 }
 
+.title-mobile {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
 .video-background {
   object-fit: fill;
   position: absolute;

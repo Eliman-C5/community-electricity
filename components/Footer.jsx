@@ -37,7 +37,7 @@ export const Footer = () => {
         </div>
       </div>
       
-      <p className="text-center">
+      <p className="">
       {
         spanishIsActive ?
         'Estamos creando la infraestructura y los mecanismos para lograr un impacto sexy, personal y material.' :

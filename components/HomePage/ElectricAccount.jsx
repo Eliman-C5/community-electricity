@@ -1,26 +1,28 @@
 import React, { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageProvider'
 import Section from '../Wrappers/NormalAndFadeInSection'
+import { ElectricAccountPic } from './ElectricAccountPic'
 
 export const ElectricAccount = () => {
 
   const { spanishIsActive } = useContext(LanguageContext);
 
   return (
+  <>
     <Section>
-      <div className="flex">
+      <div className="flex gap-4 flex-col md:flex-row">
       
-        <div className="w-1/2 flex flex-col justify-center gap-8">
-          <h2 className='title'>
+        <div className="w-full md:w-1/2 flex flex-col justify-center gap-8">
+          <h2 className='title-mobile md:title'>
             {
               spanishIsActive ?
-              'Hacer click aquí para empezar a usar tu cuenta bancaria eléctrica' :
-              'Click here to start using your electric bank account'
+              'Empieza a usar tu cuenta bancaria eléctrica' :
+              'Start using your electric bank account'
             }
           </h2>
-          <div className="flex">
-            <img src="/images/purple-icon.png" alt="" className='w-[80px] h-[136px]' />
-            <span className='mt-auto'>
+          <div className="flex justify-between">
+            <img src="/images/purple-icon.png" alt="" className='w-[60px] h-[102px] md:w-[80px] md:h-[136px]' />
+            <span className='mt-auto text-[16px] font-semibold'>
               {
                 spanishIsActive ?
                 'Calculadora de incentivos IRA' :
@@ -30,9 +32,11 @@ export const ElectricAccount = () => {
           </div>
         </div>
         
-        <img src="/images/electric-account-house.png" alt="" className='w-1/2'/>
+        <img src="/images/electric-account-house.png" alt="" className='hidden md:block md:w-1/2'/>
       
       </div>
     </Section>
+    <ElectricAccountPic />
+  </>
   )
 }

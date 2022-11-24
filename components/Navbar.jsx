@@ -47,7 +47,7 @@ export const Navbar = () => {
           />
         </Link>
         
-        <div className="flex items-center gap-10 pl-12">
+        <div className="hidden md:flex items-center gap-10 pl-12">
         {
           links.map(link => (
             <Link href={link.src} key={link.id} className='text-black font-medium'>
