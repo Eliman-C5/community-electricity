@@ -52,7 +52,7 @@ export const ServicesSection = () => {
       </div>
       
       <div className="grid place-content-center my-[40px] md:my-[80px]">
-        <img src="/images/video.png" alt="" />
+        <img src="/images/Video.png" alt="" />
       </div>
     </Section>
   )

@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
       // Optimizar codigo de tailwind
-      <div className='min-h-[680px] max-h-[837px] grid place-content-center mx-auto relative'>
+      <div className='min-h-[60vh] md:min-h-[680px] max-h-[837px] grid place-content-center mx-auto relative'>
       
         <video src="/images/header.mp4" autoPlay muted loop className='video-background'></video>
     

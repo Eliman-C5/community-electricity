@@ -8,7 +8,7 @@ export const AboutSectionCard = ({title, text, btn, src}) => {
         <p className='text-black'>{text}</p>
         <span className='text-black font-semibold'>{btn}</span>
       </div>
-      <div className="w-full h-[150px] md:w-1/2 md:h-full order-1">
+      <div className="w-full h-[250px] md:w-1/2 md:h-full order-1">
         <img src={src} alt="slide in about section" className='h-full w-full md:ml-auto'/>
       </div>
     </div>

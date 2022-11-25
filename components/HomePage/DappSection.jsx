@@ -12,8 +12,8 @@ export const DappSection = () => {
       <div className="flex flex-col md:flex-row items-center gap-0 md:gap-28 lg:h-[612px]">
       
         <div className="w-full md:w-1/2">
-          <img src="/images/glu dapp.png" alt="About Home" className='w-[252px] h-[56px]' />
-          <img src="/images/glu movil.png" alt="About Home" className='w-[415px] h-[299px]' />
+          <img src="/images/glu dapp.png" alt="About Home" className='w-[180px] h-[44px] md:w-[252px] md:h-[56px]' />
+          <img src="/images/glu movil.png" alt="About Home" className='w-[312px] h-[225px] md:w-[415px] md:h-[299px]' />
           <p className='my-4'>
           {
             spanishIsActive ?

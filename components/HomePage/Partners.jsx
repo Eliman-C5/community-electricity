@@ -37,7 +37,7 @@ export const Partners = () => {
           'Partners'
         }
       </h2>
-      <div className='flex justify-between'>
+      <div className='hidden md:flex justify-between'>
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -57,6 +57,33 @@ export const Partners = () => {
                   alt={pic.alt} 
                   key={pic.id} 
                   className='w-[150px] h-[50px]' 
+                />
+              </SwiperSlide>
+            ))
+        }
+        </Swiper>
+      </div>
+      
+      <div className='flex md:hidden justify-between'>
+        <Swiper
+          // install Swiper modules
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={50}
+          slidesPerView={3}
+          //scrollbar={{ draggable: true }}
+          pagination={{ clickable: true }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log('slide change')}
+          className='h-[120px]'
+        >
+        {
+            pictures.map(pic => (
+              <SwiperSlide key={pic.id}>
+                <img 
+                  src={pic.src} 
+                  alt={pic.alt} 
+                  key={pic.id} 
+                  className='w-[115px] h-[45px]' 
                 />
               </SwiperSlide>
             ))
