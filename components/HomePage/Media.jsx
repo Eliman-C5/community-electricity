@@ -18,7 +18,7 @@ export const Media = () => {
         }
       </h2>
       
-      <div className="flex gap-4 my-[10px] justify-center">
+      <div className="flex flex-wrap gap-4 my-[10px] justify-start sm:justify-center md:justify-start xl:justify-center">
         {
           mediaImg.first.map( img => (
             <MediaCard src={img.src} alt={img.alt} key={img.id} />
@@ -26,7 +26,7 @@ export const Media = () => {
         }
       </div>
       
-      <div className="flex gap-4 my-[10px] justify-center">
+      <div className="flex flex-wrap gap-4 my-[10px] justify-start sm:justify-center md:justify-start xl:justify-center">
         {
           mediaImg.second.map( img => (
             <MediaCard src={img.src} alt={img.alt} key={img.id} />
@@ -34,7 +34,7 @@ export const Media = () => {
         }
       </div>
       
-      <div className="flex gap-4 my-[10px] justify-center">
+      <div className="flex flex-wrap gap-4 my-[10px] justify-start sm:justify-center md:justify-start xl:justify-center">
         {
           mediaImg.third.map( img => (
             <MediaCard src={img.src} alt={img.alt} key={img.id} />

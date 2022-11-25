@@ -20,7 +20,7 @@ export const ElectricAccount = () => {
               'Start using your electric bank account'
             }
           </h2>
-          <div className="flex justify-between">
+          <div className="flex justify-between md:justify-start">
             <img src="/images/purple-icon.png" alt="" className='w-[60px] h-[102px] md:w-[80px] md:h-[136px]' />
             <span className='mt-auto text-[16px] font-semibold'>
               {
