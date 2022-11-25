@@ -1,8 +1,8 @@
 import { Header } from '../components/HomePage/Header'
-import { Navbar } from '../components/Navbar'
+import { Navbar } from '../components/Atoms/Navbar/Navbar'
 import { AboutSection } from '../components/HomePage/AboutSection'
 import { DappSection } from '../components/HomePage/DappSection'
-import { InnovativeServices } from '../components/HomePage/InnovativeServices'
+import { ServicesSection } from '../components/HomePage/ServicesSection'
 import { ElectricAccount } from '../components/HomePage/ElectricAccount'
 import { Partners } from '../components/HomePage/Partners'
 import { Media } from '../components/HomePage/Media'
@@ -15,9 +15,7 @@ export default function Home() {
       <Header />
       <AboutSection />
       <DappSection />
-      <InnovativeServices />
-      {/* Solo para completar maquetado, pero se volverá un componente */}
-      
+      <ServicesSection />
       <ElectricAccount />
       <Partners />
       <Media />

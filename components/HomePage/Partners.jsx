@@ -30,7 +30,7 @@ export const Partners = () => {
   return (
     <Section>
 
-      <h2 className='title uppercase text-center mt-[100px] mb-[60px]'>
+      <h2 className='title-mobile md:title uppercase text-center mt-[100px] mb-[60px]'>
         {
           spanishIsActive ?
           'Socios' :

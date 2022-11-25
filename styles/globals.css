@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: #FFF ;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #764AF1 !important;
+}
+
+
 body {
   font-size: 14px;
   font-family: 'Poppins', sans-serif;

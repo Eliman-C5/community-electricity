@@ -14,7 +14,7 @@ const icons = [
   {id: 9, src: '/images/services-9.svg'},
 ];
 
-export const InnovativeServices = () => {
+export const ServicesSection = () => {
 
   const {spanishIsActive} = useContext(LanguageContext);
   
