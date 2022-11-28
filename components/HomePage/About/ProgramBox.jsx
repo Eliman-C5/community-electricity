@@ -1,6 +1,6 @@
 import React from 'react'
-import { purpleButtons } from '../../data/text'
-import { PurpleBtn } from '../Atoms/PurpleBtn'
+import { purpleButtons } from '../../../data/text'
+import { PurpleBtn } from '../../Atoms/PurpleBtn'
 
 export const ProgramBox = ({spanishIsActive}) => {
   return (

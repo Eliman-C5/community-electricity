@@ -1,12 +1,12 @@
 import React from 'react'
-import { AboutSectionCard } from '../Atoms/AboutSectionCard'
+import { AboutSectionCard } from '../../Atoms/AboutSectionCard'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { aboutCarusel } from '../../data/text';
+import { aboutCarusel } from '../../../data/text';
 
 export const AboutCarusel = ({spanishIsActive}) => {
   return (

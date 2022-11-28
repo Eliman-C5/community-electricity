@@ -1,7 +1,8 @@
 import React, { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageProvider'
+import { electricAccount } from '../../data/text'
 import Section from '../Wrappers/NormalAndFadeInSection'
-import { ElectricAccountPic } from './ElectricAccountPic'
+import { ElectricAccountPic } from './ElectricAccount/ElectricAccountPic'
 
 export const ElectricAccount = () => {
 
@@ -16,8 +17,8 @@ export const ElectricAccount = () => {
           <h2 className='title-mobile md:title'>
             {
               spanishIsActive ?
-              'Empieza a usar tu cuenta bancaria eléctrica' :
-              'Start using your electric bank account'
+              electricAccount.title.esp :
+              electricAccount.title.eng
             }
           </h2>
           <div className="flex justify-between md:justify-start">
@@ -25,8 +26,8 @@ export const ElectricAccount = () => {
             <span className='mt-auto text-[16px] font-semibold'>
               {
                 spanishIsActive ?
-                'Calculadora de incentivos IRA' :
-                'IRA incentives calculator'
+                  electricAccount.calculator.esp :
+                  electricAccount.calculator.eng
               }
             </span>
           </div>

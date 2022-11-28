@@ -1,4 +1,5 @@
-import { aboutSection } from '../../data/text'
+import { aboutSection } from '../../../data/text'
+import { LearnMoreBtn } from '../../Atoms/LearnMoreBtn'
 
 export const AboutTexts = ({spanishIsActive}) => {
   return (
@@ -49,13 +50,7 @@ export const AboutTexts = ({spanishIsActive}) => {
           }
           </div>
         
-          <span className='font-semibold'>
-          {
-            spanishIsActive ?
-            'Saber más' :
-            'Learn more'
-          }
-          </span>
+          <LearnMoreBtn boxStyles='' spanishIsActive={spanishIsActive} />
         
         </div>
         

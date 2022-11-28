@@ -127,3 +127,40 @@ export const aboutCarusel = {
     {id: 4, src: '/images/slider/slider-4.png', title: 'Programa Micro-Hidro Comunitario', text: `Nuestro programa microhidroeléctrico comunitario es un nuevo enfoque para que los departamentos de agua municipales y privados usen válvulas de control para reducir la presión del agua potable o residual. Estas instalaciones pueden convertir ese diferencial de presión en electricidad e ingresos. Una mejor gestión de la presión reduce los impactos negativos en la infraestructura y generar su energía reduce los costos operativos. Beneficioso tanto para las instalaciones de agua como para sus clientes.`, btn: 'Saber más'},
   ],
 }
+
+export const footer = {
+  join_prosumer_network: {
+    eng: 'Join the prosumer network and monetize as you decarbonize',
+    esp: 'Únase a la red de prosumidores y monetice mientras descarboniza'
+  },
+  we_are_creating: {
+    eng: 'We are creating the infrastructure and mechanisms to make impact sexy, personal, and material.',
+    esp: 'Estamos creando la infraestructura y los mecanismos para lograr un impacto sexy, personal y material.'
+  }
+}
+
+export const electricAccount = {
+  title: {
+    eng: 'Start using your electric bank account',
+    esp: 'Empieza a usar tu cuenta bancaria eléctrica'
+  },
+  calculator: {
+    eng: 'IRA incentives calculator',
+    esp: 'Calculadora de incentivos IRA'
+  }
+}
+
+export const partnerPictures = [
+  {id: 1, src: '/images/partners/Energy coalition.svg', alt: 'Energy coalition'},
+  {id: 2, src: '/images/partners/California energy.svg', alt: 'California energy'},
+  {id: 3, src: '/images/partners/Ucla.svg', alt: 'Ucla'},
+  {id: 4, src: '/images/partners/CPA.svg', alt: 'CPA'},
+  {id: 5, src: '/images/partners/pivot energy.svg', alt: 'pivot energy'},
+  {id: 6, src: '/images/partners/Aclima.svg', alt: 'Aclima'},
+  {id: 7, src: '/images/partners/Greencommuter.svg', alt: 'Greencommuter'},
+  {id: 8, src: '/images/partners/google.svg', alt: 'google'},
+  {id: 9, src: '/images/partners/splight.svg', alt: 'splight'},
+  {id: 10, src: '/images/partners/grid.svg', alt: 'grid'},
+  {id: 11, src: '/images/partners/arup.svg', alt: 'arup'},
+  {id: 12, src: '/images/partners/bluesky energy.svg', alt: 'bluesky energy'},
+]

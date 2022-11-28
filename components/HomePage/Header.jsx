@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageProvider'
 import { headerTitle, headerSubtitle } from '../../data/text'
+import { LearnMoreBtn } from '../Atoms/LearnMoreBtn'
+import { ArrowBtn } from '../Atoms/ArrowBtn'
 
 export const Header = () => {
 
@@ -14,7 +16,10 @@ export const Header = () => {
     
         <div className="w-full md:w-11/12 mx-auto z-10 relative">
       
-          <h1 className='title-mobile md:title text-center'>
+          <h1 
+            className='title-mobile md:title text-center'
+            onClick={() => setSpanishIsActive(!spanishIsActive)}
+          >
             {spanishIsActive ? headerTitle.esp : headerTitle.eng}
           </h1>
       
@@ -22,15 +27,14 @@ export const Header = () => {
             {spanishIsActive ? headerSubtitle.esp : headerSubtitle.eng}
           </p>
           
-          <div className="flex justify-around my-5">
-            <span 
-              className='font-semibold'
-              onClick={() => setSpanishIsActive(!spanishIsActive)}
-            >
-              {spanishIsActive ? 'Saber más >' : 'Learn more >'}
-            </span>
-            <span className='font-semibold'>{spanishIsActive ? 'Comprar' : 'Buy'}</span>
-          </div>
+          <LearnMoreBtn boxStyles={"flex justify-around my-5"} spanishIsActive={spanishIsActive}>
+            <div className=''>
+              {spanishIsActive ? 
+                <ArrowBtn text='Comprar' path={"/images/white-arrow.svg"} /> : 
+                <ArrowBtn text='Buy' path={"/images/white-arrow.svg"} />
+              }
+            </div>
+          </LearnMoreBtn>
         
         </div>
     

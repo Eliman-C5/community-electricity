@@ -3,15 +3,15 @@ import { LanguageContext } from '../../context/LanguageProvider'
 import Section from '../Wrappers/NormalAndFadeInSection'
 
 const icons = [
-  {id: 1, src: '/images/services-1.svg'},
-  {id: 2, src: '/images/services-2.svg'},
-  {id: 3, src: '/images/services-3.svg'},
-  {id: 4, src: '/images/services-4.svg'},
-  {id: 5, src: '/images/services-5.svg'},
-  {id: 6, src: '/images/services-6.svg'},
-  {id: 7, src: '/images/services-7.svg'},
-  {id: 8, src: '/images/services-8.svg'},
-  {id: 9, src: '/images/services-9.svg'},
+  {id: 1, src: '/images/services/services-1.svg'},
+  {id: 2, src: '/images/services/services-2.svg'},
+  {id: 3, src: '/images/services/services-3.svg'},
+  {id: 4, src: '/images/services/services-4.svg'},
+  {id: 5, src: '/images/services/services-5.svg'},
+  {id: 6, src: '/images/services/services-6.svg'},
+  {id: 7, src: '/images/services/services-7.svg'},
+  {id: 8, src: '/images/services/services-8.svg'},
+  {id: 9, src: '/images/services/services-9.svg'},
 ];
 
 export const ServicesSection = () => {
