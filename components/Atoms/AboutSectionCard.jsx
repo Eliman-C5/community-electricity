@@ -1,16 +1,17 @@
 import React from 'react'
+import FadeInSection from '../Wrappers/FadeInSection'
 
-export const AboutSectionCard = ({title, text, btn, src, customStyle}) => {
+export const AboutSectionCard = ({title, text, btn, src}) => {
   return (
-    <div className={`${customStyle} w-full flex flex-col-reverse shrink-0 md:flex-row items-center max-w-[1135px] mr-auto md:mr-12 h-full md:h-[470px] bg-[#F2F2F2]`}>
-      <div className="w-full md:w-1/2 px-[1.5rem] py-[1.5rem] md:py-[3rem] flex flex-col gap-4">
-        <h2 className='title-mobile md:title text-black'>{title}</h2>
-        <p className='text-black '>{text}</p>
-        <span className='text-black font-semibold'>{btn}</span>
-      </div>
-      <div className="w-full h-[250px] md:w-1/2 md:h-full order-1">
-        <img src={src} alt="slide in about section" className='h-full w-full md:ml-auto'/>
-      </div>
-    </div>
+    <FadeInSection className={`w-full flex flex-col-reverse md:flex-row items-center pb-6 md:pb-0 max-w-[1135px] mx-auto h-full md:h-[470px] bg-[#F2F2F2]`}>
+        <div className="w-full h-1/2 md:w-1/2 md:h-full px-[2rem] pt-6 md:pt-0 flex flex-col justify-center gap-4">
+          <h2 className='title-mobile md:title text-black'>{title}</h2>
+          <p className='text-black '>{text}</p>
+          <span className='text-black font-semibold'>{btn}</span>
+        </div>
+        <div className="w-full h-1/2 flex items-center justify-center md:w-1/2 md:h-full order-1">
+          <img src={src} alt="slide in about section" className={`h-full md:ml-auto object-cover md:object-contain`}/>
+        </div>
+    </FadeInSection>
   )
 }

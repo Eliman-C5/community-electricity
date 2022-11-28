@@ -6,19 +6,19 @@ export const sliderReducer = (state, action) => {
     
     case TYPES.FIRST:
 
-      return 'translate-x-0'
+      return 0
       
     case TYPES.SECOND:
 
-      return '-translate-x-[100%]'
+      return 1
       
     case TYPES.THIRD:
 
-      return '-translate-x-[200%]'
+      return 2
       
     case TYPES.FOURTH:
 
-      return '-translate-x-[300%]'
+      return 3
     
     default:
       return state

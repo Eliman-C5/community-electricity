@@ -25,15 +25,15 @@ export const aboutSection = {
   ],
   eng: [
     {
-      id: 1,
+      id: 4,
       text: 'Community Electricity is a Climate Tech start-up that transforms neighborhoods into what we call Prosumer Communities, also known as "virtual power plants".'
     },
     {
-      id: 2,
+      id: 5,
       text: 'Prosumer Communities are networks of producers and consumers of clean electricity organized to create value at the edge of the grid, decrease pollution and increase equity at the local level, focused on disadvantaged communities first.'
     },
     {
-      id: 3,
+      id: 6,
       text: 'This new real estate model reduces electricity costs to tenants, creates extra revenue for real estate owners, reduces carbon emissions, and decarbonizes the electrical grid. We focus on disadvantaged communities first.'
     },
   ]
@@ -95,36 +95,40 @@ export const purpleButtons = [
     id: 1,
     esp: 'Multifamiliar',
     eng: 'Multi-family',
+    type: 'FIRST',
   },
   {
     id: 2,
     esp: 'Unifamiliar',
     eng: 'Single family',
+    type: 'SECOND',
   },
   {
     id: 3,
     esp: 'Comunidad solar',
     eng: 'Community solar',
+    type: 'THIRD',
   },
   {
     id: 4,
     esp: 'Comunidad micro-hidroeléctrica',
     eng: 'Community micro-hydro',
+    type: 'FOURTH',
   },
 ]
 
 export const aboutCarusel = {
   eng: [
-    {id: 1, src: '/images/slider/slider-1.png', title: 'Multi-family Housing Program', text: 'We partner with Multi-Family real estate owners and developers to finance and transform their portfolios into 100% electric Prosumer Communities. Using our AI-powered software, glu surplus electricity storage in the batteries is sold back to the grid creating new sources of revenues. We eliminate demand charges for building electricity loads by including batteries, resulting in lower to net electricity bills.', btn: 'Learn more'},
-    {id: 2, src: '/images/slider/slider-2.png', title: 'Single-family Housing Program', text: 'We engage and aggregate single-family real estate and transform them into electric and prosumer homes. We connect neighborhoods into networks of producers and consumers of clean electricity organized to create value at the edge of the grid, decrease pollution and increase equity at the local level.', btn: 'Learn more'},
-    {id: 3, src: '/images/slider/slider-3.png', title: 'Community Solar Program', text: `Our Community solar program provides clean energy benefits to community members who can not install solar panels in their place. We partner with commercial and corporate buildings, land, and parking lot owners to engage, co-finance, develop and operate community solar projects across disadvantaged communities. Once the resident becomes a Community solar subscriber, they can begin electrifying their home using the Inflation Reduction Act home electrification incentives. The Federal incentives can cover up to 100% of the electrification costs.`, btn: 'Learn more'},
-    {id: 4, src: '/images/slider/slider-4.png', title: 'Community Micro-Hydro Program', text: `Our community micro-hydro program is a new approach for municipal and private water departments to use control valves to reduce pressure for potable or wastewater. These facilities can convert that pressure differential into electricity and revenue. Better pressure management reduces negative impacts on infrastructure, and generating your energy reduces operating costs. Beneficial to both water facilities and their clients.`, btn: 'Learn more'},
+    {id: 0, src: '/images/slider/slider-1.png', title: 'Multi-family Housing Program', text: 'We partner with Multi-Family real estate owners and developers to finance and transform their portfolios into 100% electric Prosumer Communities. Using our AI-powered software, glu surplus electricity storage in the batteries is sold back to the grid creating new sources of revenues. We eliminate demand charges for building electricity loads by including batteries, resulting in lower to net electricity bills.', btn: 'Learn more'},
+    {id: 1, src: '/images/slider/slider-2.png', title: 'Single-family Housing Program', text: 'We engage and aggregate single-family real estate and transform them into electric and prosumer homes. We connect neighborhoods into networks of producers and consumers of clean electricity organized to create value at the edge of the grid, decrease pollution and increase equity at the local level.', btn: 'Learn more'},
+    {id: 2, src: '/images/slider/slider-3.png', title: 'Community Solar Program', text: `Our Community solar program provides clean energy benefits to community members who can not install solar panels in their place. We partner with commercial and corporate buildings, land, and parking lot owners to engage, co-finance, develop and operate community solar projects across disadvantaged communities. Once the resident becomes a Community solar subscriber, they can begin electrifying their home using the Inflation Reduction Act home electrification incentives. The Federal incentives can cover up to 100% of the electrification costs.`, btn: 'Learn more'},
+    {id: 3, src: '/images/slider/slider-4.png', title: 'Community Micro-Hydro Program', text: `Our community micro-hydro program is a new approach for municipal and private water departments to use control valves to reduce pressure for potable or wastewater. These facilities can convert that pressure differential into electricity and revenue. Better pressure management reduces negative impacts on infrastructure, and generating your energy reduces operating costs. Beneficial to both water facilities and their clients.`, btn: 'Learn more'},
   ],
   esp: [
-    {id: 1, src: '/images/slider/slider-1.png', title: 'Programa de vivienda multifamiliar', text: 'Nos asociamos con propietarios y desarrolladores de bienes raíces multifamiliares para financiar sus carteras en comunidades de prosumidores 100 % eléctricas. Con nuestro software impulsado por IA, el almacenamiento de electricidad excedente de glu en las baterías se vende a la red creando nuevas fuentes de ingresos. Eliminamos los cargos por demanda para las cargas de electricidad del edificio al incluir baterías, lo que resulta en facturas de electricidad más bajas que las netas.', btn: 'Saber más'},
-    {id: 2, src: '/images/slider/slider-2.png', title: 'Programa de Vivienda Unifamiliar', text: 'Contratamos y agregamos inmuebles unifamiliares y los transformamos en hogares eléctricos y de prosumidor. Conectamos vecindarios en redes de productores y consumidores de electricidad limpia organizados para crear valor al borde de la red, disminuir la contaminación y aumentar la equidad a nivel local.', btn: 'Saber más'},
-    {id: 3, src: '/images/slider/slider-3.png', title: 'Programa Solar Comunitario', text: `Nuestro programa solar comunitario brinda beneficios de energía limpia a los miembros de la comunidad que no pueden instalar paneles solares en su lugar. Nos asociamos con propietarios de edificios comerciales y corporativos, terrenos y estacionamientos para participar, cofinanciar, desarrollar y operar proyectos solares comunitarios en comunidades desfavorecidas. Una vez que el residente se convierte en suscriptor de Community solar, puede comenzar a electrificar su hogar utilizando los incentivos de electrificación del hogar de la Ley de Reducción de la Inflación. Los incentivos federales pueden cubrir hasta el 100% de los costos de electrificación.`, btn: 'Saber más'},
-    {id: 4, src: '/images/slider/slider-4.png', title: 'Programa Micro-Hidro Comunitario', text: `Nuestro programa microhidroeléctrico comunitario es un nuevo enfoque para que los departamentos de agua municipales y privados usen válvulas de control para reducir la presión del agua potable o residual. Estas instalaciones pueden convertir ese diferencial de presión en electricidad e ingresos. Una mejor gestión de la presión reduce los impactos negativos en la infraestructura y generar su energía reduce los costos operativos. Beneficioso tanto para las instalaciones de agua como para sus clientes.`, btn: 'Saber más'},
+    {id: 0, src: '/images/slider/slider-1.png', title: 'Programa de vivienda multifamiliar', text: 'Nos asociamos con propietarios y desarrolladores de bienes raíces multifamiliares para financiar sus carteras en comunidades de prosumidores 100 % eléctricas. Con nuestro software impulsado por IA, el almacenamiento de electricidad excedente de glu en las baterías se vende a la red creando nuevas fuentes de ingresos. Eliminamos los cargos por demanda para las cargas de electricidad del edificio al incluir baterías, lo que resulta en facturas de electricidad más bajas que las netas.', btn: 'Saber más'},
+    {id: 1, src: '/images/slider/slider-2.png', title: 'Programa de Vivienda Unifamiliar', text: 'Contratamos y agregamos inmuebles unifamiliares y los transformamos en hogares eléctricos y de prosumidor. Conectamos vecindarios en redes de productores y consumidores de electricidad limpia organizados para crear valor al borde de la red, disminuir la contaminación y aumentar la equidad a nivel local.', btn: 'Saber más'},
+    {id: 2, src: '/images/slider/slider-3.png', title: 'Programa Solar Comunitario', text: `Nuestro programa solar comunitario brinda beneficios de energía limpia a los miembros de la comunidad que no pueden instalar paneles solares en su lugar. Nos asociamos con propietarios de edificios comerciales y corporativos, terrenos y estacionamientos para participar, cofinanciar, desarrollar y operar proyectos solares comunitarios en comunidades desfavorecidas. Una vez que el residente se convierte en suscriptor de Community solar, puede comenzar a electrificar su hogar utilizando los incentivos de electrificación del hogar de la Ley de Reducción de la Inflación. Los incentivos federales pueden cubrir hasta el 100% de los costos de electrificación.`, btn: 'Saber más'},
+    {id: 3, src: '/images/slider/slider-4.png', title: 'Programa Micro-Hidro Comunitario', text: `Nuestro programa microhidroeléctrico comunitario es un nuevo enfoque para que los departamentos de agua municipales y privados usen válvulas de control para reducir la presión del agua potable o residual. Estas instalaciones pueden convertir ese diferencial de presión en electricidad e ingresos. Una mejor gestión de la presión reduce los impactos negativos en la infraestructura y generar su energía reduce los costos operativos. Beneficioso tanto para las instalaciones de agua como para sus clientes.`, btn: 'Saber más'},
   ],
 }
 
