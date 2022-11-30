@@ -3,6 +3,7 @@ import { LanguageContext } from '../../context/LanguageProvider'
 import { electricAccount } from '../../data/text'
 import Section from '../Wrappers/NormalAndFadeInSection'
 import { ElectricAccountPic } from './ElectricAccount/ElectricAccountPic'
+import { ArrowBtn } from '../Atoms/ArrowBtn'
 
 export const ElectricAccount = () => {
 
@@ -23,13 +24,14 @@ export const ElectricAccount = () => {
           </h2>
           <div className="flex justify-between md:justify-start">
             <img src="/images/purple-icon.png" alt="" className='w-[60px] h-[102px] md:w-[80px] md:h-[136px]' />
-            <span className='mt-auto text-[16px] font-semibold'>
-              {
-                spanishIsActive ?
-                  electricAccount.calculator.esp :
-                  electricAccount.calculator.eng
-              }
-            </span>
+            <ArrowBtn 
+              text={spanishIsActive ? 
+                    electricAccount.calculator.esp :
+                    electricAccount.calculator.eng
+                    }
+              path={'/images/white-arrow.svg'}
+              customStyle={'mt-auto text-[16px]'}
+            />
           </div>
         </div>
         

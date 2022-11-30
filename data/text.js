@@ -168,3 +168,57 @@ export const partnerPictures = [
   {id: 11, src: '/images/partners/arup.svg', alt: 'arup'},
   {id: 12, src: '/images/partners/bluesky energy.svg', alt: 'bluesky energy'},
 ]
+
+//Marketplace
+export const marketplaceSubtitle = {
+  esp: 'Comienza a electrificar tu hogar y ayuda a descarbonizar tu vecindario',
+  eng: 'Star electrifying your home and help decarbonize your neighbourhood'
+}
+
+export const marketplaceWelcome = {
+  esp: 'Bienvenido a nuestra comunidad',
+  eng: 'Welcome to our Community'
+}
+
+export const marketCards = [
+  {
+    id: 1, 
+    name: 'Super Node', 
+    text: {
+      esp: '',
+      eng: 'The glu super node can integrate multiple devices via local API'
+    }, 
+    src: '/images/marketplace/card-1.png',
+    height: 'h-[585px]'
+  },
+  {
+    id: 2, 
+    name: 'LFP Battery', 
+    text: {
+      esp: '',
+      eng: '48V RHINO - LiFePO4 - 276Ah - 10kWh & 14kWh'
+    }, 
+    src: '/images/marketplace/card-2.png',
+    height: 'h-[585px]'
+  },
+  {
+    id: 3, 
+    name: 'Thermostat', 
+    text: {
+      esp: '',
+      eng: 'Enhanced Smart Programmable Touch-Screen Wi-Fi Thermostat'
+    }, 
+    src: '/images/marketplace/card-3.png',
+    height: 'h-[466px]'
+  },
+  {
+    id: 4, 
+    name: 'PV Solar', 
+    text: {
+      esp: '',
+      eng: '360W 24V MONOCRYSTALLINE SOLAR PANEL'
+    }, 
+    src: '/images/marketplace/card-4.png',
+    height: 'h-[466px]'
+  },
+]

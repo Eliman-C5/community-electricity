@@ -30,6 +30,7 @@ export const Footer = () => {
             className='flex flex-col md:flex-row gap-6 mt-4'
             onSubmit={handleSubmit}
           >
+            {/* Reducir codigo tailwind */}
             <input 
               type="email"
               placeholder='Email'

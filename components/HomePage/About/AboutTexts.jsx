@@ -7,7 +7,7 @@ export const AboutTexts = ({spanishIsActive}) => {
         
         {/*  Componetizar para quitar llaves. Mover los textos a text.js para que sea mas legible */}
         <div className="block md:hidden">
-          <h2 className='uppercase title-mobile md:title block md:hidden'>
+          <h2 className='title-mobile md:title block md:hidden'>
             {
               spanishIsActive ?
               'Acerca' :
@@ -34,7 +34,7 @@ export const AboutTexts = ({spanishIsActive}) => {
         
         <div className="flex flex-col gap-4 lg:ml-auto lg:w-1/2">
         
-          <h2 className='uppercase title-mobile md:title hidden md:block'>
+          <h2 className='title-mobile md:title hidden md:block'>
           {
             spanishIsActive ?
             'Acerca' :

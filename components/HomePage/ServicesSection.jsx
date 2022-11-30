@@ -45,10 +45,10 @@ export const ServicesSection = () => {
         }
       </div>
       
-      <div className="hidden md:flex justify-between  mt-[40px]">
-        <h2 className='title'>internet</h2>
-        <h2 className='title'>{spanishIsActive? 'energía' : 'energy'}</h2>
-        <h2 className='title'>{spanishIsActive? 'servicios de red' : 'grid services'}</h2>
+      <div className="hidden md:flex justify-between mt-[10px]">
+        <h2 className=''>INTERNET</h2>
+        <h2 className=''>{spanishIsActive? 'ENERGÍA' : 'ENERGY'}</h2>
+        <h2 className=''>{spanishIsActive? 'SERVICIOS DE RED' : 'GRID SERVICES'}</h2>
       </div>
       
       <div className="grid place-content-center my-[40px] md:my-[80px]">
