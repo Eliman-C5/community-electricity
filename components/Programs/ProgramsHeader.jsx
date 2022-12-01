@@ -9,7 +9,7 @@ export const ProgramsHeader = () => {
       
         <h1 className='text-center title-mobile md:text-[50px]'>Programs</h1>
       
-        <img src="/images/programs/programsHeaderLetras.png" alt="" className='max-w-[913px] mx-auto pl-6' />
+        <img src="/images/programs/programsHeaderLetras.png" alt="" className='w-full max-w-[913px] mx-auto pl-6' />
       </div>
     </div>
   )
