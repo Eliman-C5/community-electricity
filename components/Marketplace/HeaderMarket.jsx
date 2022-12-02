@@ -3,6 +3,7 @@ import { LanguageContext } from '../../context/LanguageProvider'
 import Section from '../Wrappers/NormalAndFadeInSection'
 import { PurpleBtn } from '../Atoms/PurpleBtn'
 import { marketplaceSubtitle, marketplaceWelcome } from '../../data/text'
+import { HeaderWrapper } from '../Atoms/HeaderWrapper'
 
 //Componetizar para las demás pages
 export const HeaderMarket = () => {
@@ -10,9 +11,9 @@ export const HeaderMarket = () => {
   const {spanishIsActive} = useContext( LanguageContext )
 
   return (
-      <div 
-      className='h-[90vh] max-h-[578px] max-w-[1440px] bg-no-repeat flex items-center mx-auto relative 
-      bg-[url("/images/marketplace/marketHeader.png")]'>
+      <HeaderWrapper 
+        styles='h-[90vh] max-h-[578px] max-w-[1440px] relative bg-[url("/images/marketplace/marketHeader.png")]'
+      >
       
         <Section>
           <div className="flex flex-col w-full gap-4">
@@ -35,6 +36,6 @@ export const HeaderMarket = () => {
           </div>
         </Section> 
       
-      </div>
+      </HeaderWrapper>
   )
 }

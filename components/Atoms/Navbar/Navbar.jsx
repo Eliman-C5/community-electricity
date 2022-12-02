@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import Link from 'next/link';
 import { Paths } from './Paths'
 import { MobileNavbar } from './MobileNavbar'
+import { LanguageContext } from '../../../context/LanguageProvider'
 
 export const Navbar = () => {
 
   const [isMenuActive, setIsMenuActive] = useState(false);
+  const {spanishIsActive, setSpanishIsActive} = useContext( LanguageContext )
 
   return (
     <nav className='bg-white relative z-50'>
@@ -25,6 +27,7 @@ export const Navbar = () => {
         {/* Volverlo un componente */}
         <button 
           className='hidden md:block text-white bg-black my-auto h-[33px] px-[20px]'
+          onClick={() => setSpanishIsActive(!spanishIsActive)}
         >
           Contact us
         </button>
