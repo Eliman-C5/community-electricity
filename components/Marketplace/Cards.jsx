@@ -91,13 +91,12 @@ const secondMarketCard = [
 export const Cards = () => {
   return (
     <Section>
-      <div className="flex flex-wrap flex-col md:flex-row gap-6 md:w-[780px] mx-auto">
+      <div className="flex flex-wrap flex-col md:flex-row justify-center gap-2 w-full mx-auto">
       
         <MarketCard
           name={marketCards[0].name}
           text={marketCards[0].text.eng}
           src={marketCards[0].src}
-          cardHeight={marketCards[0].height}
         >
           <div className='grid grid-cols-2'>
             {
@@ -120,13 +119,12 @@ export const Cards = () => {
           name={marketCards[1].name}
           text={marketCards[1].text.eng}
           src={marketCards[1].src}
-          cardHeight={marketCards[1].height}
         >
           <div className='grid grid-cols-2'>
             {
               secondMarketCard.map(
                 card => (
-                  <div className="flex my-2" key={card.id}>
+                  <div className="flex my-2 items-start" key={card.id}>
                     <img 
                       src="/images/marketplace/purpleCheck.svg" 
                       alt={card.text.eng} 
@@ -146,7 +144,6 @@ export const Cards = () => {
               name={card.name}
               text={card.text.eng}
               src={card.src}
-              cardHeight={card.height}
             />
           ))
         }

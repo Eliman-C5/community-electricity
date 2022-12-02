@@ -52,7 +52,11 @@ export const ServicesSection = () => {
       </div>
       
       <div className="grid place-content-center my-[40px] md:my-[80px]">
-        <img src="/images/Video.png" alt="" />
+        <img 
+          className='w-[1441px]'
+          src="https://res.cloudinary.com/datsipxkz/image/upload/v1669952723/Community/glu-community-min_rfwktf.gif" 
+          alt=""
+        />
       </div>
     </Section>
   )

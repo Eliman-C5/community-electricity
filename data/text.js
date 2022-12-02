@@ -189,7 +189,6 @@ export const marketCards = [
       eng: 'The glu super node can integrate multiple devices via local API'
     }, 
     src: '/images/marketplace/card-1.png',
-    height: 'h-[585px]'
   },
   {
     id: 2, 
@@ -199,7 +198,6 @@ export const marketCards = [
       eng: '48V RHINO - LiFePO4 - 276Ah - 10kWh & 14kWh'
     }, 
     src: '/images/marketplace/card-2.png',
-    height: 'h-[585px]'
   },
   {
     id: 3, 
@@ -209,7 +207,6 @@ export const marketCards = [
       eng: 'Enhanced Smart Programmable Touch-Screen Wi-Fi Thermostat'
     }, 
     src: '/images/marketplace/card-3.png',
-    height: 'h-[466px]'
   },
   {
     id: 4, 
@@ -219,7 +216,6 @@ export const marketCards = [
       eng: '360W 24V MONOCRYSTALLINE SOLAR PANEL'
     }, 
     src: '/images/marketplace/card-4.png',
-    height: 'h-[466px]'
   },
 ]
 
