@@ -8,7 +8,7 @@ export const TeamCard = ({src, name, charge, linkedin}) => {
       <p className='text-center'>{charge}</p>
       {
         linkedin && (
-          <a href={linkedin} target='_blank'>
+          <a href={linkedin} target='_blank' rel="noreferrer">
             <img src='/images/team/linkedin.svg' alt={name} />
           </a>
         )

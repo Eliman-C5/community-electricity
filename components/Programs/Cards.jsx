@@ -14,6 +14,7 @@ export const Cards = () => {
         {
           programsCards.map(card => (
             <ProgramsCard 
+              key={card.id}
               src={card.src} 
               title={spanishIsActive ? card.title.esp : card.title.eng} 
             />
