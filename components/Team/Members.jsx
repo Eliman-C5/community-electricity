@@ -7,7 +7,7 @@ export const Members = () => {
   return (
     <Section>
       <TeamMembers cards={teamMembers} />
-      <TeamMembersMobile cards={teamMembers} />
+      <TeamMembersMobile cards={teamMembers} prev='prev-members' next='next-members' />
     </Section>
   )
 }

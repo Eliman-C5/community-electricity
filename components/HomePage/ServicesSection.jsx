@@ -19,6 +19,7 @@ export const ServicesSection = () => {
   const {spanishIsActive} = useContext(LanguageContext);
   
   return (
+  <>
     <Section>
       <h2 className='font-semibold text-[28px] md:text-[48px] md:text-center leading-[40px] my-[30px]'>
       {
@@ -50,14 +51,12 @@ export const ServicesSection = () => {
         <h2 className=''>{spanishIsActive? 'ENERGÍA' : 'ENERGY'}</h2>
         <h2 className=''>{spanishIsActive? 'SERVICIOS DE RED' : 'GRID SERVICES'}</h2>
       </div>
-      
-      <div className="grid place-content-center my-[40px] md:my-[80px]">
-        <img 
-          className='w-[1441px]'
-          src="https://res.cloudinary.com/datsipxkz/image/upload/v1669952723/Community/glu-community-min_rfwktf.gif" 
-          alt=""
-        />
-      </div>
     </Section>
+    <img 
+      className='w-full max-h-[810px]'
+      src="https://res.cloudinary.com/datsipxkz/image/upload/v1669952723/Community/glu-community-min_rfwktf.gif" 
+      alt="Header gif"
+    />
+  </>
   )
 }

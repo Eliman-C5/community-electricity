@@ -8,7 +8,7 @@ export const Experts = () => {
     <Section>
       <h4 className='title-mobile md:title pl-4'>Field of Experts</h4>
       <TeamMembers cards={teamExperts} />
-      <TeamMembersMobile cards={teamExperts} />
+      <TeamMembersMobile cards={teamExperts} prev='prev-experts' next='next-experts' />
     </Section>
   )
 }

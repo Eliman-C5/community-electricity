@@ -444,3 +444,130 @@ export const teamExperts = [
     linkedin: null
   },
 ]
+
+//zones
+export const zonesTexts = [
+  {
+    id: 1,
+    text: {
+      eng: 'Commercial pilots and living laboratories',
+      esp: ''
+    },
+  },
+  {
+    id: 2,
+    text: {
+      eng: 'Proving the value of our concepts and methods.',
+      esp: ''
+    },
+  },
+  {
+    id: 3,
+    text: {
+      eng: 'Bringing communities up to speed with decentralized energy generation and guiding them towards their energy transition.',
+      esp: ''
+    },
+  },
+  {
+    id: 4,
+    text: {
+      eng: 'Modernizing workforce development.',
+      esp: ''
+    },
+  }
+]
+
+export const zonesCardsTexts = [
+  {
+    id: 1,
+    mainImg: '/images/zones/cards/card-1.png',
+    title: {
+      eng: 'Basset avocado HEIGHTS, california',
+      esp: ''
+    },
+    firstText: {
+      eng: 'MASTER COMMUNITY: PRODUCT DEVELOPMENT',
+      esp: '',
+    },
+    secondText: {
+      eng: 'Virtual Power Plants, Master Plan Program for Disadvantaged Communities.',
+      esp: ''
+    },
+    specialText: null,
+    arrowPath: '/images/zones/purpleArrow.svg',
+  },
+  {
+    id: 2,
+    mainImg: '/images/zones/cards/card-2.png',
+    title: {
+      eng: 'SANTA ANA, CALIFORNIA',
+      esp: ''
+    },
+    firstText: {
+      eng: 'MASTER COMMUNITY: PRODUCT IMPLEMENTATIONT',
+      esp: '',
+    },
+    secondText: {
+      eng: 'Virtual Power Plants, New 100% Electric Affordable Housing Program.',
+      esp: ''
+    },
+    specialText: null,
+    arrowPath: '/images/zones/purpleArrow.svg',
+  },
+  {
+    id: 3,
+    mainImg: '/images/zones/cards/card-3.png',
+    title: {
+      eng: 'FREEPORT, TX',
+      esp: ''
+    },
+    firstText: {
+      eng: 'UNDER EVALUATION',
+      esp: '',
+    },
+    secondText: {
+      eng: 'Solar + Storage',
+      esp: ''
+    },
+    specialText: '10 MW Community Solar.',
+    arrowPath: '/images/zones/purpleArrow.svg',
+  },
+  {
+    id: 4,
+    mainImg: '/images/zones/cards/card-4.png',
+    title: {
+      eng: 'LA LATAM',
+      esp: ''
+    },
+    firstText: {
+      eng: 'IN NEGOTIATIONS',
+      esp: '',
+    },
+    secondText: {
+      eng: 'Virtual power plants, Knowledge Transfer, Policy Consulting, Education/ Workforce Development.',
+      esp: ''
+    },
+    specialText: null,
+    arrowPath: '/images/zones/purpleArrow.svg',
+  },
+]
+
+export const benefitsCards = {
+  text: [
+    {
+      id: 1,
+      esp: '',
+      eng: 'Empower and direct agencies to explore and accelerate the adoption of new energy technologies.'
+    },
+    {
+      id: 2,
+      esp: '',
+      eng: 'Encourage regulated utilities to pursue innovative energy technologies and offer customer choices.'
+    },
+    {
+      id: 3,
+      esp: '',
+      eng: 'Pilot emerging technologies in partnership with local agencies and utilities.'
+    },
+  ],
+}

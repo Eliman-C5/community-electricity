@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  --swiper-navigation-color: #FFF;
+} */
+
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background-color: #cbd5e1;
   opacity: 1;
@@ -13,6 +17,21 @@
   background-color: #764AF1 !important;
 }
 
+.swiper-button-prev {
+  left: 20px !important;
+}
+
+.swiper-button-next {
+  right: 20px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  top: 94% !important;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  content: "" !important;
+}
 
 body {
   font-size: 14px;
