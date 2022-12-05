@@ -41,7 +41,7 @@ export const ComingSoon = ({spanishIsActive}) => {
           'The energy internet home service'
         }
       </h2>
-      <div className="flex justify-between gap-4">
+      <div className="flex justify-between gap-2 md:gap-4">
       {
         items.map(item => (
           <div className="" key={item.id}>

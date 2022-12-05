@@ -4,7 +4,7 @@ import { ArrowBtn } from '../../Atoms/ArrowBtn'
 
 export const StartUsingItem = ({spanishIsActive}) => {
   return (
-    <div className="w-full ms:flex flex-col justify-center gap-8 pr-4">
+    <div className="w-full flex flex-col justify-center gap-8 pr-4">
       <h2 className='title-mobile md:title'>
         {
           spanishIsActive ?
@@ -12,7 +12,7 @@ export const StartUsingItem = ({spanishIsActive}) => {
           electricAccount.title.eng
         }
       </h2>
-      <div className="flex justify-between md:justify-start">
+      <div className="flex justify-between md:justify-start mt-[40px]">
           <img src="/images/purple-icon.png" alt="" className='w-[60px] h-[102px] md:w-[80px] md:h-[136px]' />
           <ArrowBtn 
             text=

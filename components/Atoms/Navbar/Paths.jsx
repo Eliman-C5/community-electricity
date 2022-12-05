@@ -1,28 +1,28 @@
 import Link from 'next/link';
 
 const links = [
+  // {
+  //   id: 1,
+  //   title: 'About',
+  //   src: '/about',
+  // },
   {
     id: 1,
-    title: 'About',
-    src: '/about',
-  },
-  {
-    id: 2,
     title: 'Team',
     src: '/team',
   },
   {
-    id: 3,
+    id: 2,
     title: 'Programs',
     src: '/programs',
   },
   {
-    id: 4,
+    id: 3,
     title: 'Marketplace',
     src: '/marketplace',
   },
   {
-    id: 5,
+    id: 4,
     title: 'Innovation zones',
     src: '/zones',
   },

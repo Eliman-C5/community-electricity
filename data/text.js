@@ -25,15 +25,15 @@ export const aboutSection = {
   ],
   eng: [
     {
-      id: 4,
+      id: 1,
       text: 'Community Electricity is a Climate Tech start-up that transforms neighborhoods into what we call Prosumer Communities, also known as "virtual power plants".'
     },
     {
-      id: 5,
+      id: 2,
       text: 'Prosumer Communities are networks of producers and consumers of clean electricity organized to create value at the edge of the grid, decrease pollution and increase equity at the local level, focused on disadvantaged communities first.'
     },
     {
-      id: 6,
+      id: 3,
       text: 'This new real estate model reduces electricity costs to tenants, creates extra revenue for real estate owners, reduces carbon emissions, and decarbonizes the electrical grid. We focus on disadvantaged communities first.'
     },
   ]

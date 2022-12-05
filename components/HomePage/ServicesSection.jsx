@@ -21,11 +21,11 @@ export const ServicesSection = () => {
   return (
   <>
     <Section>
-      <h2 className='font-semibold text-[28px] md:text-[48px] md:text-center leading-[40px] my-[30px]'>
+      <h2 className='title-mobile md:text-[35px] md:text-center my-[30px]'>
       {
         spanishIsActive ?
         'Servicio innovador multijugador' :
-        'innovative multi-play service'
+        'Innovative multi-play service'
       }
       </h2>
       
@@ -46,7 +46,7 @@ export const ServicesSection = () => {
         }
       </div>
       
-      <div className="hidden md:flex justify-between mt-[10px]">
+      <div className="flex justify-between mt-[10px] ml-2 md:ml-0">
         <h2 className=''>INTERNET</h2>
         <h2 className=''>{spanishIsActive? 'ENERGÍA' : 'ENERGY'}</h2>
         <h2 className=''>{spanishIsActive? 'SERVICIOS DE RED' : 'GRID SERVICES'}</h2>

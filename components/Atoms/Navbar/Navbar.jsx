@@ -35,7 +35,7 @@ export const Navbar = () => {
   return (
     <nav className='bg-white relative z-50'>
     
-      <div className="max-w-[1441px] h-[76px] mx-auto flex justify-around">
+      <div className="max-w-[1441px] h-[76px] mx-auto flex justify-between px-4">
         
         <Link href={'/'} className='flex items-center'>
           <img

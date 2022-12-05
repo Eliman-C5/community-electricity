@@ -11,7 +11,7 @@ export const Media = () => {
   return (
     <Section>
     
-      <h2 className='title-mobile md:title uppercase text-center mt-[100px] mb-[60px]'>
+      <h2 className='title-mobile md:title uppercase text-center mb-[20px]'>
         {
           spanishIsActive ?
           'Medios' :

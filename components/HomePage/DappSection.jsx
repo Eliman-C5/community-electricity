@@ -18,7 +18,7 @@ export const DappSection = () => {
           <img 
             src="/images/glu dapp.png" 
             alt="About Home" 
-            className='w-[180px] h-[44px] md:w-[252px] md:h-[56px]' 
+            className='w-[180px] h-[44px] md:w-[252px] md:h-[56px] mt-[15px]' 
           />
           <img 
             src="/images/glu movil.png" 
@@ -26,7 +26,7 @@ export const DappSection = () => {
             className='w-[312px] h-[225px] md:w-[415px] md:h-[299px]' 
           />
           
-          <p className='my-4'>
+          <p className='my-4 font-bold'>
           {
             spanishIsActive ?
             dappSection.subtitleEsp :

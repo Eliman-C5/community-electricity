@@ -10,7 +10,7 @@ export const Header = () => {
 
   return (
       // Optimizar codigo de tailwind
-      <div className='min-h-[90vh] md:min-h-[680px] max-h-[837px] grid place-content-center mx-auto relative'>
+      <div className='min-h-[90vh] md:min-h-[680px] max-h-[837px] grid place-content-center mx-auto relative px-4'>
       
         <video src="/images/header.mp4" autoPlay muted loop className='video-background'></video>
     
@@ -22,7 +22,7 @@ export const Header = () => {
             {spanishIsActive ? headerTitle.esp : headerTitle.eng}
           </h1>
       
-          <p className='text-center my-4'>
+          <p className='text-center my-4 text-[18px]'>
             {spanishIsActive ? headerSubtitle.esp : headerSubtitle.eng}
           </p>
           
