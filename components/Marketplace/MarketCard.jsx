@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { CardsBtn } from './CardsBtn';
+import { LanguageContext } from '../../context/LanguageProvider'
 
 export const MarketCard = ({children, name, text, src, cardHeight}) => {
+
+  const {spanishIsActive} = useContext( LanguageContext )
 
   const [counter, setCounter] = useState(1)
   
@@ -16,7 +19,6 @@ export const MarketCard = ({children, name, text, src, cardHeight}) => {
       
       
       <img src={src} alt={name} className='relative z-20 max-w-[161px] h-fit' />
-        {/* <div className="absolute bg-gradient-to-r from-[#CBC7E0] to-[#7869C2] blur-md h-[121px] w-[80%] top-[45%] -rotate-[20deg] rounded-full opacity-10"></div> */}
       
       <div className="flex flex-col">
         <h4 className='text-[22px] font-bold'>{name}</h4>
@@ -26,7 +28,13 @@ export const MarketCard = ({children, name, text, src, cardHeight}) => {
           <CardsBtn onClick={decrement} symbol='-' />
           <span className='text-[16px]'>{counter}</span>
           <CardsBtn onClick={increment} symbol='+' /> 
-          <button className='bg-white text-[#9885F7] w-[130px] md:w-[149px] h-[30px] md:h-[45px]'>Contact us</button>
+          <button className='bg-white text-[#9885F7] w-[130px] md:w-[149px] h-[30px] md:h-[45px]'>
+          {
+            spanishIsActive ?
+            'Contáctanos' :
+            'Contact us'
+          }
+          </button>
         </div>
       </div>
       

@@ -11,6 +11,9 @@ import { zonesCardsTexts } from '../../data/text';
 import { SwiperNavButtons } from '../Atoms/SwiperNavButtons';
 
 export const ZonesProgressMobile = () => {
+
+  const {spanishIsActive} = useContext( LanguageContext );
+
   return (
     <div className="block md:hidden relative">
       <Swiper
@@ -33,9 +36,9 @@ export const ZonesProgressMobile = () => {
                 <ZonesCard 
                   key={card.id}
                   mainImg={card.mainImg}
-                  title={card.title.eng}
-                  firstText={card.firstText.eng}
-                  secondText={card.secondText.eng}
+                  title={ spanishIsActive ? card.title.esp : card.title.eng}
+                  firstText={ spanishIsActive ? card.firstText.esp : card.firstText.eng}
+                  secondText={ spanishIsActive ? card.secondText.esp : card.secondText.eng}
                   path={card.arrowPath}
                   specialText={card.specialText}
                   style='mx-auto'

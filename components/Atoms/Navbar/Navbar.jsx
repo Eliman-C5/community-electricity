@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useState, useContext, useEffect } from 'react'
 import Link from 'next/link';
 import { Paths } from './Paths'
 import { MobileNavbar } from './MobileNavbar'
@@ -8,6 +8,29 @@ export const Navbar = () => {
 
   const [isMenuActive, setIsMenuActive] = useState(false);
   const {spanishIsActive, setSpanishIsActive} = useContext( LanguageContext )
+  
+  // const handleSpanish = () => {
+  //   localStorage.removeItem('isTranslated')
+  //   localStorage.setItem('isTranstaled', JSON.stringify('true'))
+  //   setSpanishIsActive(true)
+  // }
+  
+  // const handleEnglish = () => {
+  //   localStorage.removeItem('isTranslated')
+  //   localStorage.setItem('isTranstaled', JSON.stringify('false'))
+  //   setSpanishIsActive(false)
+  // }
+  
+  // useEffect(() => {
+  
+  //   console.log(JSON.parse(localStorage.getItem('isTranslated')), spanishIsActive)
+  
+  //   spanishIsActive ?
+  //   handleSpanish() :
+  //   handleEnglish()
+  
+  // }, [spanishIsActive])
+  
 
   return (
     <nav className='bg-white relative z-50'>

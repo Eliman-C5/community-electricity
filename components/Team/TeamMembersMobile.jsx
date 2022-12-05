@@ -10,6 +10,9 @@ import { TeamCard } from "./TeamCard"
 import { SwiperNavButtons } from '../Atoms/SwiperNavButtons';
 
 export const TeamMembersMobile = ({cards, prev, next}) => {
+
+  const {spanishIsActive} = useContext( LanguageContext );
+
   return (
     <div className="block sm:hidden relative">
       <Swiper
@@ -33,7 +36,7 @@ export const TeamMembersMobile = ({cards, prev, next}) => {
                   key={card.id}
                   src={card.src}
                   name={card.name}
-                  charge={card.charge.eng}
+                  charge={ spanishIsActive ? card.charge.esp : card.charge.eng}
                   linkedin={card.linkedin}
                 />
               </SwiperSlide>

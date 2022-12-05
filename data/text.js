@@ -185,7 +185,7 @@ export const marketCards = [
     id: 1, 
     name: 'Super Node', 
     text: {
-      esp: '',
+      esp: 'El súper nodo glu puede integrar varios dispositivos a través de la API local',
       eng: 'The glu super node can integrate multiple devices via local API'
     }, 
     src: '/images/marketplace/card-1.png',
@@ -194,7 +194,7 @@ export const marketCards = [
     id: 2, 
     name: 'LFP Battery', 
     text: {
-      esp: '',
+      esp: '48V RHINO - LiFePO4 - 276Ah - 10kWh & 14kWh',
       eng: '48V RHINO - LiFePO4 - 276Ah - 10kWh & 14kWh'
     }, 
     src: '/images/marketplace/card-2.png',
@@ -203,7 +203,7 @@ export const marketCards = [
     id: 3, 
     name: 'Thermostat', 
     text: {
-      esp: '',
+      esp: 'Termostato Wi-Fi con pantalla táctil programable inteligente mejorado',
       eng: 'Enhanced Smart Programmable Touch-Screen Wi-Fi Thermostat'
     }, 
     src: '/images/marketplace/card-3.png',
@@ -212,12 +212,95 @@ export const marketCards = [
     id: 4, 
     name: 'PV Solar', 
     text: {
-      esp: '',
+      esp: 'Panel solar monocristalino 360W 24V',
       eng: '360W 24V MONOCRYSTALLINE SOLAR PANEL'
     }, 
     src: '/images/marketplace/card-4.png',
   },
 ]
+
+export const firstMarketCard = [
+  {
+    id: 1, 
+    text: {
+      eng: 'Optimization',
+      esp: 'Optimización'
+    },
+  },
+  {
+    id: 2, 
+    text: {
+      eng: 'Monetization',
+      esp: 'Monetización'
+    },
+  },
+  {
+    id: 3, 
+    text: {
+      eng: 'Monitoring',
+      esp: 'Monitoreo'
+    },
+  },
+  {
+    id: 4, 
+    text: {
+      eng: 'Reward',
+      esp: 'Recompenza'
+    },
+  },
+  {
+    id: 5, 
+    text: {
+      eng: 'Cyber secure',
+      esp: 'Ciberseguro'
+    },
+  },
+  {
+    id: 6, 
+    text: {
+      eng: 'Connect IOT',
+      esp: 'Conectar al IoT'
+    },
+  }
+];
+
+export const secondMarketCard = [
+  {
+    id: 1, 
+    text: {
+      eng: 'Under Voltage',
+      esp: 'Bajo Voltaje'
+    },
+  },
+  {
+    id: 2, 
+    text: {
+      eng: 'Over Voltage',
+      esp: 'Sobre Voltaje'
+    },
+  },
+  {
+    id: 3, 
+    text: {
+      eng: 'Over-Current',
+      esp: 'Sobrecorriente'
+    },
+  },
+  {
+    id: 4, 
+    text: {
+      eng: 'Safety Fuse (300A)',
+      esp: 'Fusible de seguridad (300A)'
+    },
+  },
+  {
+    id: 5, 
+    text: {
+      eng: 'BMS (Battery Management System)',
+      esp: 'BMS (Sistema de gestión de batería)'
+    },
+  },
+];
 
 //Programs
 export const programsCards = [
@@ -336,7 +419,7 @@ export const teamMembers = [
     name: 'Juan Pablo',
     charge: {
       eng: 'Chief Technology Officer',
-      esp: ''
+      esp: 'Director de tecnología'
     },
     linkedin: null
   },
@@ -346,7 +429,7 @@ export const teamMembers = [
     name: 'Austin Davis',
     charge: {
       eng: 'Chief Blockchain Strategist',
-      esp: ''
+      esp: 'Estratega Jefe de Blockchain'
     },
     linkedin: 'https://community-electricity.vercel.app'
   },
@@ -356,7 +439,7 @@ export const teamMembers = [
     name: 'José Marken',
     charge: {
       eng: 'Business Development Dominican Republic',
-      esp: ' '
+      esp: 'Desarrollo de Negocios República Dominicana'
     },
     linkedin: null
   },
@@ -366,7 +449,7 @@ export const teamMembers = [
     name: 'Constanza Blondet',
     charge: {
       eng: 'Chief Engagement Officer',
-      esp: ''
+      esp: 'Directora de compromiso'
     },
     linkedin: null
   },
@@ -376,7 +459,7 @@ export const teamMembers = [
     name: 'Jenny Aragon',
     charge: {
       eng: 'Finance & Accounting',
-      esp: ''
+      esp: 'Finanzas & Contabilidad'
     },
     linkedin: 'https://community-electricity.vercel.app'
   },
@@ -409,7 +492,7 @@ export const teamExperts = [
     name: 'Dr. Julie Albright',
     charge: {
       eng: 'Data center expert',
-      esp: ''
+      esp: 'Experta en centros de datos'
     },
     linkedin: null
   },
@@ -419,7 +502,7 @@ export const teamExperts = [
     name: 'Brad Albright',
     charge: {
       eng: 'Community solar and energy expert',
-      esp: ''
+      esp: 'Experto comunitario en energía y energía solar'
     },
     linkedin: null
   },
@@ -429,7 +512,7 @@ export const teamExperts = [
     name: 'Anthem Hayek Blanchard',
     charge: {
       eng: 'Founder of herasoft blockchain and cybersecurity expert',
-      esp: ' '
+      esp: 'Fundador de herasoft. Experto en ciberseguridad y blockchain'
     },
     linkedin: null
   },
@@ -439,7 +522,7 @@ export const teamExperts = [
     name: 'Diego Martinez',
     charge: {
       eng: 'Energy expert',
-      esp: ''
+      esp: 'Experto en energía'
     },
     linkedin: null
   },
@@ -451,28 +534,28 @@ export const zonesTexts = [
     id: 1,
     text: {
       eng: 'Commercial pilots and living laboratories',
-      esp: ''
+      esp: 'Pilotos comerciales y laboratorios vivientes'
     },
   },
   {
     id: 2,
     text: {
       eng: 'Proving the value of our concepts and methods.',
-      esp: ''
+      esp: 'Demostrar el valor de nuestros conceptos y métodos.'
     },
   },
   {
     id: 3,
     text: {
       eng: 'Bringing communities up to speed with decentralized energy generation and guiding them towards their energy transition.',
-      esp: ''
+      esp: 'Poner a las comunidades al día con la generación de energía descentralizada y guiarlas hacia su transición energética.'
     },
   },
   {
     id: 4,
     text: {
       eng: 'Modernizing workforce development.',
-      esp: ''
+      esp: 'Modernización del desarrollo de la fuerza laboral.'
     },
   }
 ]
@@ -483,15 +566,15 @@ export const zonesCardsTexts = [
     mainImg: '/images/zones/cards/card-1.png',
     title: {
       eng: 'Basset avocado HEIGHTS, california',
-      esp: ''
+      esp: 'Basset avocado HEIGHTS, california'
     },
     firstText: {
       eng: 'MASTER COMMUNITY: PRODUCT DEVELOPMENT',
-      esp: '',
+      esp: 'COMUNIDAD MAESTRA: DESARROLLO DE PRODUCTO',
     },
     secondText: {
       eng: 'Virtual Power Plants, Master Plan Program for Disadvantaged Communities.',
-      esp: ''
+      esp: 'Centrales Virtuales, Programa Plan Maestro para Comunidades Desfavorecidas.'
     },
     specialText: null,
     arrowPath: '/images/zones/purpleArrow.svg',
@@ -501,15 +584,15 @@ export const zonesCardsTexts = [
     mainImg: '/images/zones/cards/card-2.png',
     title: {
       eng: 'SANTA ANA, CALIFORNIA',
-      esp: ''
+      esp: 'SANTA ANA, CALIFORNIA'
     },
     firstText: {
       eng: 'MASTER COMMUNITY: PRODUCT IMPLEMENTATIONT',
-      esp: '',
+      esp: 'COMUNIDAD MASTER: IMPLEMENTACIÓN DEL PRODUCTO',
     },
     secondText: {
       eng: 'Virtual Power Plants, New 100% Electric Affordable Housing Program.',
-      esp: ''
+      esp: 'Centrales Eléctricas Virtuales, Nuevo Programa de Vivienda Asequible 100% Eléctrica.'
     },
     specialText: null,
     arrowPath: '/images/zones/purpleArrow.svg',
@@ -519,15 +602,15 @@ export const zonesCardsTexts = [
     mainImg: '/images/zones/cards/card-3.png',
     title: {
       eng: 'FREEPORT, TX',
-      esp: ''
+      esp: 'FREEPORT, TX'
     },
     firstText: {
       eng: 'UNDER EVALUATION',
-      esp: '',
+      esp: 'Bajo evaluación',
     },
     secondText: {
       eng: 'Solar + Storage',
-      esp: ''
+      esp: 'Solar + Almacenamiento'
     },
     specialText: '10 MW Community Solar.',
     arrowPath: '/images/zones/purpleArrow.svg',
@@ -537,15 +620,15 @@ export const zonesCardsTexts = [
     mainImg: '/images/zones/cards/card-4.png',
     title: {
       eng: 'LA LATAM',
-      esp: ''
+      esp: 'LA LATAM'
     },
     firstText: {
       eng: 'IN NEGOTIATIONS',
-      esp: '',
+      esp: 'En negociaciones',
     },
     secondText: {
       eng: 'Virtual power plants, Knowledge Transfer, Policy Consulting, Education/ Workforce Development.',
-      esp: ''
+      esp: 'Centrales eléctricas virtuales, Transferencia de conocimientos, Consultoría de políticas, Educación/Desarrollo de la fuerza laboral.'
     },
     specialText: null,
     arrowPath: '/images/zones/purpleArrow.svg',
@@ -556,17 +639,17 @@ export const benefitsCards = {
   text: [
     {
       id: 1,
-      esp: '',
+      esp: 'Empoderar y dirigir a las agencias para que exploren y aceleren la adopción de nuevas tecnologías energéticas.',
       eng: 'Empower and direct agencies to explore and accelerate the adoption of new energy technologies.'
     },
     {
       id: 2,
-      esp: '',
+      esp: 'Alentar a las empresas de servicios públicos reguladas a buscar tecnologías energéticas innovadoras y ofrecer opciones a los clientes.',
       eng: 'Encourage regulated utilities to pursue innovative energy technologies and offer customer choices.'
     },
     {
       id: 3,
-      esp: '',
+      esp: 'Poner a prueba tecnologías emergentes en asociación con agencias y servicios públicos locales.',
       eng: 'Pilot emerging technologies in partnership with local agencies and utilities.'
     },
   ],

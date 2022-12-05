@@ -1,0 +1,30 @@
+import React from 'react'
+import { electricAccount } from '../../../data/text'
+import { ArrowBtn } from '../../Atoms/ArrowBtn'
+
+export const StartUsingItem = ({spanishIsActive}) => {
+  return (
+    <div className="w-full ms:flex flex-col justify-center gap-8 pr-4">
+      <h2 className='title-mobile md:title'>
+        {
+          spanishIsActive ?
+          electricAccount.title.esp :
+          electricAccount.title.eng
+        }
+      </h2>
+      <div className="flex justify-between md:justify-start">
+          <img src="/images/purple-icon.png" alt="" className='w-[60px] h-[102px] md:w-[80px] md:h-[136px]' />
+          <ArrowBtn 
+            text=
+            {
+              spanishIsActive ? 
+              electricAccount.calculator.esp :
+              electricAccount.calculator.eng
+            }
+            path={'/images/white-arrow.svg'}
+            customStyle={'mt-auto text-[16px]'}
+          />
+      </div>
+    </div>
+  )
+}
