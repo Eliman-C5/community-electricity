@@ -48,7 +48,7 @@ export const ComingSoon = ({spanishIsActive}) => {
             <img src="/images/services/services-1.svg" alt="" />
             <p>
             {
-              item.text ?
+              spanishIsActive ?
               item.text.esp :
               item.text.eng
             }
