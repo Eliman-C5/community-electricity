@@ -12,7 +12,7 @@ export const StartUsingItem = ({spanishIsActive}) => {
           electricAccount.title.eng
         }
       </h2>
-      <div className="flex justify-between md:justify-start mt-[40px]">
+      <div className="flex justify-between md:justify-start mt-[40px] pl-4 md:pl-0">
           <img src="/images/purple-icon.png" alt="" className='w-[60px] h-[102px] md:w-[80px] md:h-[136px]' />
           <ArrowBtn 
             text=

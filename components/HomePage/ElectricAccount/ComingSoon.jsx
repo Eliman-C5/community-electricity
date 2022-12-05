@@ -46,7 +46,7 @@ export const ComingSoon = ({spanishIsActive}) => {
         items.map(item => (
           <div className="" key={item.id}>
             <img src="/images/services/services-1.svg" alt="" />
-            <p>
+            <p className='text-[12px]'>
             {
               spanishIsActive ?
               item.text.esp :
