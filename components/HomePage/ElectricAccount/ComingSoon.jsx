@@ -44,7 +44,7 @@ export const ComingSoon = ({spanishIsActive}) => {
       <div className="flex justify-between gap-4">
       {
         items.map(item => (
-          <div className="">
+          <div className="" key={item.id}>
             <img src="/images/services/services-1.svg" alt="" />
             <p>
             {
