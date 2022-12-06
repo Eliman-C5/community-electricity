@@ -27,7 +27,7 @@ export const TeamMembersMobile = ({cards, prev, next}) => {
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
-          className='h-[420px] mt-20'
+          className='h-[420px]'
         >
           {
             cards.map(card => (

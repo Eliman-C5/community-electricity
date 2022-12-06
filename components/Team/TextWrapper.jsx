@@ -10,9 +10,9 @@ export const TextWrapper = ({src, title, text, text2 = null}) => {
         <img src={src} alt="" className='w-fit h-fit hidden md:block' />
         <div className="w-full md:w-11/12 md:pl-4">
           <h4 className='hidden md:block text-[18px] font-bold mb-5'>{title}</h4>
-          <p>{text}</p>
+          <p className='md:font-bold'>{text}</p>
           {
-            text2 && <p>{text2}</p>
+            text2 && <p className='md:font-bold'>{text2}</p>
           }
         </div>
     </div>

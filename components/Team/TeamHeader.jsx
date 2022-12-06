@@ -8,7 +8,7 @@ export const TeamHeader = () => {
 
   return (
     <HeaderWrapper
-      styles={'bg-[url("/images/team/teamHeaderMobile.png")] sm:bg-[url("/images/team/teamHeader.png")] max-w-[1440px] w-full h-[486px] sm:h-[648px] bg-center bg-cover'}
+      styles={'bg-[url("/images/team/teamHeaderMobile.png")] sm:bg-[url("/images/team/teamHeader.png")] h-[486px] sm:h-[648px]'}
     >
       <h1 className="font-semibold text-[40px] text-center w-full mt-auto mb-12">
       {

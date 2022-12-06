@@ -12,7 +12,7 @@ export const HeaderMarket = () => {
 
   return (
       <HeaderWrapper 
-        styles='h-[90vh] max-h-[578px] max-w-[1440px] relative bg-[url("/images/marketplace/marketHeader.png")]'
+        styles='h-[90vh] max-h-[578px] relative bg-[url("/images/marketplace/marketHeaderMobile.png")] md:bg-[url("/images/marketplace/marketHeader.png")]'
       >
       
         <Section>

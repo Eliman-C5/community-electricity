@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { CardsBtn } from './CardsBtn';
 import { LanguageContext } from '../../context/LanguageProvider'
 
-export const MarketCard = ({children, name, text, src, cardHeight}) => {
+export const MarketCard = ({children, name, text, src, style = 'xl:ml-auto'}) => {
 
   const {spanishIsActive} = useContext( LanguageContext )
 
@@ -15,7 +15,7 @@ export const MarketCard = ({children, name, text, src, cardHeight}) => {
   //Reducir estilos tailwind
   //Componetizar
   return (
-    <div className={`w-full sm:w-[312px] md:w-[572px] md:h-[330px] flex flex-col md:flex-row gap-4 mx-auto md:mx-0 bg-[#262626]/50 rounded-2xl justify-center items-center p-4 md:p-8`}>
+    <div className={`${style} market-card sm:w-full min-[1440px]:w-[572px] xl:place-self-center xl:h-[380px] sm:flex-row md:mx-0 bg-[#262626]/50 rounded-2xl md:p-8 lg:justify-around`}>
       
       
       <img src={src} alt={name} className='relative z-20 max-w-[161px] h-fit' />

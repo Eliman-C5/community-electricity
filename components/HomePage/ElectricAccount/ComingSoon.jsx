@@ -34,14 +34,14 @@ const items = [
 export const ComingSoon = ({spanishIsActive}) => {
   return (
     <div className='w-full flex flex-col justify-center gap-8'>
-      <h2 className='title-mobile text-center uppercase'>
+      <h2 className='title-mobile md:text-center uppercase'>
         {
           spanishIsActive ?
           'El servicio de internet de energía para el hogar' :
           'The energy internet home service'
         }
       </h2>
-      <div className="flex justify-between gap-2 md:gap-4">
+      <div className="flex justify-between gap-1 md:gap-4">
       {
         items.map(item => (
           <div className="" key={item.id}>

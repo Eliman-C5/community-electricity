@@ -10,7 +10,7 @@ export const Cards = () => {
 
   return (
     <Section>
-      <div className="flex flex-wrap flex-col md:flex-row justify-center gap-2 w-full mx-auto">
+      <div className="flex flex-wrap flex-col justify-center gap-2 xl:grid grid-cols-2  w-full mx-auto">
       
         <MarketCard
           name={marketCards[0].name}
@@ -38,16 +38,17 @@ export const Cards = () => {
           name={marketCards[1].name}
           text={spanishIsActive ? marketCards[1].text.esp : marketCards[1].text.eng}
           src={marketCards[1].src}
+          style={'xl:mr-auto'}
         >
           <div className='grid grid-cols-2'>
             {
               secondMarketCard.map(
                 card => (
-                  <div className="flex my-2 items-start col-span-full" key={card.id}>
+                  <div className="flex my-2 items-start col-span-full md:col-span-1" key={card.id}>
                     <img 
                       src="/images/marketplace/purpleCheck.svg" 
                       alt={spanishIsActive ? card.text.esp : card.text.eng} 
-                      className='mr-2'
+                      className='mr-2 max-h-[22px] max-w-[22px]'
                     /> 
                       {spanishIsActive ? card.text.esp : card.text.eng}
                   </div>
@@ -63,6 +64,7 @@ export const Cards = () => {
               name={card.name}
               text={spanishIsActive ? card.text.esp : card.text.eng}
               src={card.src}
+              style={card.id === 3? 'xl:ml-auto' : 'xl:mr-auto'}
             />
           ))
         }

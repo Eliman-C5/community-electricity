@@ -17,7 +17,7 @@ export const ProgramsText = () => {
             programsText.title.eng
           }
         </h4>
-        <p className='text-[16px] lg:w-1/2 mt-4'>
+        <p className='text-[16px] lg:w-2/3 mt-4'>
           {
             spanishIsActive ?
             programsText.text.esp :
