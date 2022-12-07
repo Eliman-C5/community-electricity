@@ -52,7 +52,7 @@ export const ElectricAccount = () => {
           }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
-          className='block md:hidden w-full'
+          className='block md:hidden w-full mt-[40px]'
         >
           <SwiperSlide>
             <StartUsingItem spanishIsActive={spanishIsActive} />

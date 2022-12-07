@@ -1,5 +1,5 @@
 import { aboutSection } from '../../../data/text'
-import { LearnMoreBtn } from '../../Atoms/LearnMoreBtn'
+// import { LearnMoreBtn } from '../../Atoms/LearnMoreBtn'
 
 export const AboutTexts = ({spanishIsActive}) => {
   return (
@@ -50,7 +50,7 @@ export const AboutTexts = ({spanishIsActive}) => {
           }
           </div>
         
-          <LearnMoreBtn link={'/programs'} boxStyles='' spanishIsActive={spanishIsActive} />
+          {/* <LearnMoreBtn link={'/programs'} boxStyles='' spanishIsActive={spanishIsActive} /> */}
         
         </div>
         

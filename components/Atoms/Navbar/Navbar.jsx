@@ -3,13 +3,15 @@ import Link from 'next/link';
 import { Paths } from './Paths'
 import { MobileNavbar } from './MobileNavbar'
 import { LanguageContext } from '../../../context/LanguageProvider'
+import { FormModal } from '../FormModal'
 
 //Crear estado global Reducer + Context para manejar bien el mobileNavbar
 //Crear tambien una forma de que el cambio de idioma persista
 export const Navbar = () => {
 
   const [isMenuActive, setIsMenuActive] = useState(false);
-  const {spanishIsActive, setSpanishIsActive} = useContext( LanguageContext )  
+  
+  const {spanishIsActive, setSpanishIsActive, isModalActive, setIsModalActive} = useContext( LanguageContext )  
 
   return (
     <nav className='bg-white relative z-50'>
@@ -32,7 +34,7 @@ export const Navbar = () => {
         {/* Volverlo un componente */}
         <button 
           className='hidden md:block text-white bg-black my-auto h-[33px] px-[20px]'
-          onClick={() => setSpanishIsActive(!spanishIsActive)}
+          onClick={() => setIsModalActive(true)}
         >
           Contact us
         </button>
@@ -45,6 +47,8 @@ export const Navbar = () => {
         />
         
         <MobileNavbar isMenuActive={isMenuActive} setIsMenuActive={setIsMenuActive} />
+        
+        <FormModal />
         
       </div>
       

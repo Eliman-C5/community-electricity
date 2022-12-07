@@ -9,9 +9,9 @@ export const FormSection = () => {
 
   return (
     <Section>
-      <form className='flex flex-col gap-6 p-6 mt-4 rounded bg-[#F2F2F2] max-w-[1135px] mx-auto'>
+      <form className='flex flex-col gap-6 p-6 mt-4 rounded bg-[#F2F2F2] max-w-[1135px] mx-auto' id='market-contact'>
         <div className="flex flex-col gap-4">
-          <h4 className='text-black title md:title '>
+          <h4 className='text-black title md:text-[35px] '>
             {
               spanishIsActive ?
               'Interesado en saber más?' :

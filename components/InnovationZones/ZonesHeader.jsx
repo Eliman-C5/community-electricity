@@ -8,16 +8,16 @@ export const ZonesHeader = () => {
 
   return (
     <HeaderWrapper
-      styles={'bg-[url("/images/zones/zonesHeader.png")] max-w-[1440px] w-full h-[578px] bg-center bg-cover justify-center'}
+      styles={'bg-[url("/images/zones/zonesHeader.png")] h-[578px] justify-center'}
     >
       <div className="flex px-8 md:px-6 gap-4">
-        <h1 className="font-bold text-[22px]">
+        <a className="font-bold text-[20px] md:text-[22px]" href="https://www.climatetechinnovationzone.io/" rel="noreferrer" target='_blank'>
           {
             spanishIsActive ?
-            'Zona de innovación de tecnología climática' :
-            'Climate Tech Innovation Zone'
+            'Zona de innovación Climatetech' :
+            'Climatetech Innovation Zone'
           }
-        </h1>
+        </a>
         <button className="" >
           <img src="/images/zones/headerbtn.svg" alt="" />
         </button>

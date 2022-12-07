@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { AboutSectionCard } from '../../Atoms/AboutSectionCard'
-import { Navigation, Pagination, Scrollbar, A11y, SwiperCore } from 'swiper';
+import { Autoplay, Navigation, Pagination, Scrollbar, A11y, SwiperCore } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -9,41 +9,26 @@ import 'swiper/css/scrollbar';
 import { useSwiper } from 'swiper/react';
 import { aboutCarusel } from '../../../data/text';
 
-export const AboutCarusel = ({spanishIsActive, swiperProp}) => {
-
-  const [swiperInstance, setSwiperInstance] = useState(<SwiperCore />);
-  
-  const handleExternalChangeSlide = (newSlideIndexToShow) => {
-    swiperInstance.slidesTo(newSlideIndexToShow);
-  }
-
-  useEffect(() => {
-    
-    console.log(swiperProp)
-    // swiperInstance.slideTo(swiperProp);
-  
-  }, [swiperProp])
-  
+export const AboutCarusel = ({spanishIsActive}) => {
 
   return (
   <div className="">
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
       slidesPerView={1.1}
-      //scrollbar={{ draggable: true }}
-      pagination={{ clickable: true }}
-      // onSwiper={(swiper) => {
-      //   console.log(swiper, swiperProp)
-      //   swiperInstance.slideNext(swiperProp)
+      // loop={true}
+      // autoplay={{
+      //   delay: 3000,
+      //   disableOnInteraction: false,
       // }}
-      onSwiper={setSwiperInstance}
-      onSlideChange={(swiper) => setSwiperInstance(swiper.realIndex)}
-      // onSlideChange={(swiper) => console.log(swiper, swiperProp)}
+      scrollbar={{ draggable: true }}
+      pagination={{ clickable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
       className='mt-[60px] max-w-[1440px] mx-auto'
     >
-      {/* <button className='bg-white p-6 text-black' onClick={() => swiperInstance.slideNext()}>1</button> */}
       {
         spanishIsActive ?
           aboutCarusel.esp.map(slide => (

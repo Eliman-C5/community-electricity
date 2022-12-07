@@ -7,6 +7,7 @@ export const LanguageProvider = ({children}) => {
 
   const [spanishIsActive, setSpanishIsActive] = useState(false);
   const [activeNavItem, setActiveNavItem] = useState('')
+  const [isModalActive, setIsModalActive] = useState(false);
   
   // const handleSpanish = () => {
   //   localStorage.setItem('isTranslated', JSON.stringify(true))
@@ -32,8 +33,8 @@ export const LanguageProvider = ({children}) => {
     <LanguageContext.Provider value={{
       spanishIsActive,
       setSpanishIsActive,
-      activeNavItem,
-      setActiveNavItem
+      isModalActive,
+      setIsModalActive
     }}>
       {children}
     </LanguageContext.Provider>

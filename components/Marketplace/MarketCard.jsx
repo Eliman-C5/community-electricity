@@ -28,13 +28,13 @@ export const MarketCard = ({children, name, text, src, style = 'xl:ml-auto'}) =>
           <CardsBtn onClick={decrement} symbol='-' />
           <span className='text-[16px]'>{counter}</span>
           <CardsBtn onClick={increment} symbol='+' /> 
-          <button className='bg-white text-[#9885F7] w-[130px] md:w-[149px] h-[30px] md:h-[45px]'>
+          <a className='bg-white text-center py-[0.2rem] text-[#9885F7] w-[130px] md:w-[149px] h-[30px] md:h-[45px] md:py-2' href="#market-contact">
           {
             spanishIsActive ?
             'Contáctanos' :
             'Contact us'
           }
-          </button>
+          </a>
         </div>
       </div>
       

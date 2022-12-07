@@ -5,7 +5,7 @@ import { ArrowBtn } from '../../Atoms/ArrowBtn'
 export const StartUsingItem = ({spanishIsActive}) => {
   return (
     <div className="w-full flex flex-col justify-center gap-8 pr-4">
-      <h2 className='title-mobile md:title'>
+      <h2 className='title-mobile md:text-[35px]'>
         {
           spanishIsActive ?
           electricAccount.title.esp :

@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageProvider'
 import { dappSection } from '../../data/text'
 import Section from '../Wrappers/NormalAndFadeInSection'
-import { LearnMoreBtn } from '../Atoms/LearnMoreBtn'
+// import { LearnMoreBtn } from '../Atoms/LearnMoreBtn'
 import { TextItem } from './ElectricAccount/TextItem'
 
 export const DappSection = () => {
@@ -34,7 +34,7 @@ export const DappSection = () => {
           }
           </p>
           
-          <LearnMoreBtn boxStyles='' spanishIsActive={spanishIsActive} />
+          {/* <LearnMoreBtn boxStyles='' spanishIsActive={spanishIsActive} /> */}
           
         </div>
         

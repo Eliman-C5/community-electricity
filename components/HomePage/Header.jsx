@@ -13,12 +13,13 @@ export const Header = () => {
       // Optimizar codigo de tailwind
       <div className='min-h-[90vh] md:min-h-[680px] max-h-[837px] grid place-content-center mx-auto relative px-4'>
       
-        <video src="/images/header.mp4" autoPlay muted loop className='video-background'></video>
+        <video src="https://res.cloudinary.com/datsipxkz/video/upload/v1670443459/Community/header_xqumnb.mp4" autoPlay muted loop playsInline className='video-background'></video>
     
         <div className="w-full md:w-11/12 mx-auto z-10 relative">
       
           <h1 
             className='title-mobile md:text-[35px] text-center'
+            onClick={() => setSpanishIsActive(!spanishIsActive)}
           >
             {spanishIsActive ? headerTitle.esp : headerTitle.eng}
           </h1>

@@ -2,14 +2,14 @@ import Link from 'next/link'
 import React from 'react'
 import { ArrowBtn } from './ArrowBtn'
 
-export const LearnMoreBtn = ({children, boxStyles, spanishIsActive, link}) => {
+export const LearnMoreBtn = ({children, boxStyles, spanishIsActive, link, newStyles, path=true}) => {
   return (
     <div className={boxStyles}>
       
       <Link href={`${link}`}>
           {spanishIsActive ? 
-            <ArrowBtn text='Saber más' path={"/images/white-arrow.svg"} /> : 
-            <ArrowBtn text='Learn more' path={"/images/white-arrow.svg"} />
+            <ArrowBtn customStyle={newStyles} text='Saber más' path={path ? '/images/white-arrow.svg' : '/images/black-arrow.svg'} /> : 
+            <ArrowBtn customStyle={newStyles} text='Learn more' path={path ? '/images/white-arrow.svg' : '/images/black-arrow.svg'} />
           }
       </Link>
       
