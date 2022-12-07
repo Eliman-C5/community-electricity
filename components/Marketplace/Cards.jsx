@@ -10,6 +10,15 @@ export const Cards = () => {
 
   return (
     <Section>
+    
+      <h4 className='title-mobile md:text-[35px] text-center mb-[40px]'>
+      {
+        spanishIsActive ?
+        'Kit de prosumidor' :
+        'Prosumer Kit'
+      }
+      </h4>
+    
       <div className="flex flex-wrap flex-col justify-center gap-2 xl:grid grid-cols-2  w-full mx-auto">
       
         <MarketCard

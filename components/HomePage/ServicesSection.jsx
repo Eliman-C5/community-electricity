@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { LanguageContext } from '../../context/LanguageProvider'
 import Section from '../Wrappers/NormalAndFadeInSection'
 
@@ -16,7 +16,9 @@ const icons = [
 
 export const ServicesSection = () => {
 
+  const [isGifActive, setIsGifActive] = useState(true)
   const {spanishIsActive} = useContext(LanguageContext);
+  
   
   return (
   <>
@@ -54,9 +56,28 @@ export const ServicesSection = () => {
     </Section>
     <img 
       className='w-full max-h-[810px]'
-      src="https://res.cloudinary.com/datsipxkz/image/upload/v1669952723/Community/glu-community-min_rfwktf.gif" 
+      src={
+        isGifActive ?
+        "https://res.cloudinary.com/datsipxkz/image/upload/v1669952723/Community/glu-community-min_rfwktf.gif":
+        "/images/gif-image.png"
+      } 
       alt="Header gif"
     />
+    <div className="flex justify-center gap-4 mt-[40px]">
+      <img 
+        src="/images/watch.svg" 
+        className='w-fit h-fit' 
+        alt="Play-button-gif" 
+        onClick={() => setIsGifActive(!isGifActive)}
+      />
+      <p className='font-bold flex items-center'>
+      {
+        spanishIsActive ?
+        'Mirar video' :
+        'Watch video'
+      }
+      </p>
+    </div>
   </>
   )
 }

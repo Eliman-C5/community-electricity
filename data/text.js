@@ -1,3 +1,77 @@
+import { NAVBAR_TYPES } from "./TYPES";
+
+//Navbar
+export const navLinks = [
+  // {
+  //   id: 1,
+  //   title: 'About',
+  //   src: '/about',
+  // },
+  {
+    id: 0,
+    title: 'Home',
+    src: '/',
+    type: NAVBAR_TYPES.HOME,
+  },
+  {
+    id: 1,
+    title: 'Team',
+    src: '/team',
+    type: NAVBAR_TYPES.TEAM,
+  },
+  {
+    id: 2,
+    title: 'Programs',
+    src: '/programs',
+    type: NAVBAR_TYPES.PROGRAMS,
+  },
+  {
+    id: 3,
+    title: 'Marketplace',
+    src: '/marketplace',
+    type: NAVBAR_TYPES.MARKETPLACE,
+  },
+  {
+    id: 4,
+    title: 'Innovation zones',
+    src: '/zones',
+    type: NAVBAR_TYPES.ZONES
+  },
+];
+
+export const navDesktopLinks = [
+  // {
+  //   id: 1,
+  //   title: 'About',
+  //   src: '/about',
+  // },
+  {
+    id: 1,
+    title: 'Team',
+    src: '/team',
+    type: NAVBAR_TYPES.TEAM,
+  },
+  {
+    id: 2,
+    title: 'Programs',
+    src: '/programs',
+    type: NAVBAR_TYPES.PROGRAMS,
+  },
+  {
+    id: 3,
+    title: 'Marketplace',
+    src: '/marketplace',
+    type: NAVBAR_TYPES.MARKETPLACE,
+  },
+  {
+    id: 4,
+    title: 'Innovation zones',
+    src: '/zones',
+    type: NAVBAR_TYPES.ZONES
+  },
+];
+
+//Home
 export const headerTitle = {
   esp: 'Comunidades de prosumidores',
   eng: 'Prosumer communities',
@@ -169,10 +243,41 @@ export const partnerPictures = [
   {id: 12, src: '/images/partners/bluesky energy.svg', alt: 'bluesky energy'},
 ]
 
+export const comingSoonItems = [
+  {
+    id: 1, 
+    text: {
+      esp: 'INTERNET',
+      eng: 'INTERNET'
+    }
+  },
+  {
+    id: 2, 
+    text: {
+      esp: 'ELECTRICIDAD',
+      eng: 'ELECTRICITY'
+    }
+  },
+  {
+    id: 3, 
+    text: {
+      esp: 'RESILIENCIA',
+      eng: 'RESILIENCY'
+    }
+  },
+  {
+    id: 4, 
+    text: {
+      esp: 'RECOMPENSADO',
+      eng: 'GET REWARDED'
+    }
+  }
+]
+
 //Marketplace
 export const marketplaceSubtitle = {
   esp: 'Comienza a electrificar tu hogar y ayuda a descarbonizar tu vecindario',
-  eng: 'Star electrifying your home and help decarbonize your neighbourhood'
+  eng: 'Start electrifying your home and help decarbonize your neighborhood'
 }
 
 export const marketplaceWelcome = {
@@ -565,8 +670,8 @@ export const zonesCardsTexts = [
     id: 1,
     mainImg: '/images/zones/cards/card-1.png',
     title: {
-      eng: 'Basset avocado HEIGHTS, california',
-      esp: 'Basset avocado HEIGHTS, california'
+      eng: 'Bassett Avocado Heights, California',
+      esp: 'Bassett Avocado Heights, California'
     },
     firstText: {
       eng: 'MASTER COMMUNITY: PRODUCT DEVELOPMENT',

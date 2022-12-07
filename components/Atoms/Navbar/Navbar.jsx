@@ -1,43 +1,25 @@
-import React, { useState, useContext, useEffect } from 'react'
+import React, { useState, useContext} from 'react'
 import Link from 'next/link';
 import { Paths } from './Paths'
 import { MobileNavbar } from './MobileNavbar'
 import { LanguageContext } from '../../../context/LanguageProvider'
 
+//Crear estado global Reducer + Context para manejar bien el mobileNavbar
+//Crear tambien una forma de que el cambio de idioma persista
 export const Navbar = () => {
 
   const [isMenuActive, setIsMenuActive] = useState(false);
-  const {spanishIsActive, setSpanishIsActive} = useContext( LanguageContext )
-  
-  // const handleSpanish = () => {
-  //   localStorage.removeItem('isTranslated')
-  //   localStorage.setItem('isTranstaled', JSON.stringify('true'))
-  //   setSpanishIsActive(true)
-  // }
-  
-  // const handleEnglish = () => {
-  //   localStorage.removeItem('isTranslated')
-  //   localStorage.setItem('isTranstaled', JSON.stringify('false'))
-  //   setSpanishIsActive(false)
-  // }
-  
-  // useEffect(() => {
-  
-  //   console.log(JSON.parse(localStorage.getItem('isTranslated')), spanishIsActive)
-  
-  //   spanishIsActive ?
-  //   handleSpanish() :
-  //   handleEnglish()
-  
-  // }, [spanishIsActive])
-  
+  const {spanishIsActive, setSpanishIsActive} = useContext( LanguageContext )  
 
   return (
     <nav className='bg-white relative z-50'>
     
       <div className="max-w-[1441px] h-[76px] mx-auto flex justify-between px-4">
         
-        <Link href={'/'} className='flex items-center'>
+        <Link 
+          href={'/'} 
+          className='flex items-center'
+        >
           <img
             src="/images/logo.png"
             alt="Community logo"

@@ -12,7 +12,7 @@ export const TextWrapper = ({src, title, text, text2 = null}) => {
           <h4 className='hidden md:block text-[18px] font-bold mb-5'>{title}</h4>
           <p className='md:font-bold'>{text}</p>
           {
-            text2 && <p className='md:font-bold'>{text2}</p>
+            text2 && <p className='md:font-bold mt-[20px]'>{text2}</p>
           }
         </div>
     </div>

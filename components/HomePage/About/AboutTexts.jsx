@@ -50,7 +50,7 @@ export const AboutTexts = ({spanishIsActive}) => {
           }
           </div>
         
-          <LearnMoreBtn boxStyles='' spanishIsActive={spanishIsActive} />
+          <LearnMoreBtn link={'/programs'} boxStyles='' spanishIsActive={spanishIsActive} />
         
         </div>
         

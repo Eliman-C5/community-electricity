@@ -4,3 +4,11 @@ export const TYPES = {
   THIRD: 'THIRD',
   FOURTH: 'FOURTH',
 }
+
+export const NAVBAR_TYPES = {
+  HOME: 'HOME',
+  TEAM: 'TEAM',
+  MARKETPLACE: 'MARKETPLACE',
+  PROGRAMS: 'PROGRAMS',
+  ZONES: 'ZONES',
+}

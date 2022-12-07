@@ -20,7 +20,7 @@ export const ProgramsHeader = () => {
           }
         </h1>
       
-        <img src="/images/programs/programsHeaderLetras.png" alt="" className='hidden md:block w-full max-w-[913px] mx-auto mt-16 pl-8' />
+        <img src="/images/programs/programsHeaderLetras.png" alt="" className='hidden md:block w-[942px] h-[226px] mx-auto mt-20 pl-8' />
       </div>
     </HeaderWrapper>
   )

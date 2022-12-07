@@ -11,7 +11,7 @@ export const DappSection = () => {
 
   return (
     <Section>
-      <div className="flex flex-col md:flex-row items-center gap-0 md:gap-28 lg:h-[612px]">
+      <div className="flex flex-col md:flex-row items-center gap-0 md:gap-28">
       
         <div className="w-full md:w-1/2">
         

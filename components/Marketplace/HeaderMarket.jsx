@@ -24,7 +24,7 @@ export const HeaderMarket = () => {
                 marketplaceWelcome.eng
               }
             </p>
-            <h1 className='title-mobile md:title-mobile'>Marketplace</h1>
+            <h1 className='title-mobile md:text-[50px]'>Marketplace</h1>
             <p>
               {
                 spanishIsActive ?
@@ -32,7 +32,7 @@ export const HeaderMarket = () => {
                 marketplaceSubtitle.eng
               }
             </p>
-            <PurpleBtn text={ spanishIsActive ? 'Unete' : 'Join up'} customStyle={'w-1/3 max-w-[140px] h-[35px]'} />
+            <PurpleBtn text={ spanishIsActive ? 'Únete' : 'Join now'} customStyle={'w-1/3 max-w-[140px] h-[35px]'} />
           </div>
         </Section> 
       
