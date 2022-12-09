@@ -13,7 +13,7 @@ export const ComingSoon = ({spanishIsActive}) => {
         }
       </h2>
       
-      <div className="flex justify-between gap-1 md:gap-4">
+      <div className="flex justify-between flex-wrap gap-4">
       {
         comingSoonItems.map(item => (
           <div className="" key={item.id}>

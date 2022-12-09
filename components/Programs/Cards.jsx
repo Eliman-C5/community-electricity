@@ -16,7 +16,9 @@ export const Cards = () => {
             <ProgramsCard 
               key={card.id}
               src={card.src} 
-              title={spanishIsActive ? card.title.esp : card.title.eng} 
+              title={spanishIsActive ? card.title.esp : card.title.eng}
+              dropdownTitle={spanishIsActive ? card.dropdownTitle.esp : card.dropdownTitle.eng}
+              dropdownText={spanishIsActive ? card.dropdownText.esp : card.dropdownText.eng}
             />
           ))
         }

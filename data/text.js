@@ -461,7 +461,15 @@ export const programsCards = [
       eng: 'Multi-family Housing Program',
       esp: 'Programa de Vivienda Multifamiliar'
     }, 
-    src: '/images/programs/card-1.svg'
+    src: '/images/programs/card-1.svg',
+    dropdownTitle: {
+      eng: 'THERMOSTAT + NODE + SOLAR + STORAGE + SOFTWARE + NETWORK',
+      esp: 'TERMOSTATO + NODO + SOLAR + ALMACENAMIENTO + SOFTWARE + RED'
+    },
+    dropdownText: {
+      eng: 'Our multi-family building program focuses on electrifying both existing real estate and new construction. The program includes assessment, design, financing, and implementation.',
+      esp: 'Nuestro programa de edificios multifamiliares se enfoca en electrificar tanto los inmuebles existentes como las construcciones nuevas. El programa incluye evaluación, diseño, financiamiento e implementación.'
+    }
   },
   {
     id: 2, 
@@ -469,7 +477,15 @@ export const programsCards = [
       eng: 'Single-family Housing Program',
       esp: 'Programa de Vivienda Unifamiliar'
     }, 
-    src: '/images/programs/card-2.svg'
+    src: '/images/programs/card-2.svg',
+    dropdownTitle: {
+      eng: 'THERMOSTAT + NODE + SOLAR + STORAGE + SOFTWARE + NETWORK',
+      esp: 'TERMOSTATO + NODO + SOLAR + ALMACENAMIENTO + SOFTWARE + RED'
+    },
+    dropdownText: {
+      eng: 'Our single-family housing program focuses on electrifying both existing real estate and new construction. The program includes assessment, design, financing, and implementation.',
+      esp: 'Nuestro programa de edificios unifamiliares se enfoca en electrificar tanto los inmuebles existentes como las construcciones nuevas. El programa incluye evaluación, diseño, financiamiento e implementación.'
+    }
   },
   {
     id: 3, 
@@ -477,7 +493,15 @@ export const programsCards = [
       eng: 'Community Solar Program',
       esp: 'Programa Solar Comunitario'
     }, 
-    src: '/images/programs/card-3.svg'
+    src: '/images/programs/card-3.svg',
+    dropdownTitle: {
+      eng: 'SOLAR + SOFTWARE + NETWORK',
+      esp: 'SOLAR + SOFTWARE + RED'
+    },
+    dropdownText: {
+      eng: 'Land, parking lots, or commercial/ industrial building owners can monetize their property by hosting a community solar farm. Owners will receive long-term lease payments while providing cleaner, cheaper electricity for their surrounding community. The program includes assessment, design, financing, and implementation.',
+      esp: 'Los propietarios de terrenos, estacionamientos o edificios comerciales/industriales pueden monetizar su propiedad albergando una granja solar comunitaria. Los propietarios recibirán pagos de arrendamiento a largo plazo mientras proporcionan electricidad más limpia y más barata para la comunidad circundante. El programa incluye evaluación, diseño, financiamiento e implementación.'
+    }
   },
   {
     id: 4, 
@@ -485,7 +509,15 @@ export const programsCards = [
       eng: 'Micro-hydro Program',
       esp: 'Programa Micro-Hidro Comunitario'
     }, 
-    src: '/images/programs/card-4.svg'
+    src: '/images/programs/card-4.svg',
+    dropdownTitle: {
+      eng: 'MICROHYDRO + SOFTWARE + NETWORK',
+      esp: 'MICROHIDRO + SOFTWARE + RED'
+    },
+    dropdownText: {
+      eng: 'Entities that can control valves to reduce pressure for potable or wastewater can convert that pressure differential into electricity and revenue. Better pressure management reduces negative impacts on infrastructure, and generating your energy reduces operating costs. This program includes assessment, design, financing, and implementation.',
+      esp: 'Las entidades que pueden controlar válvulas para reducir la presión de agua potable o residual pueden convertir ese diferencial de presión en electricidad e ingresos. Una mejor gestión de la presión reduce los impactos negativos en la infraestructura y generar su energía reduce los costos operativos. Este programa incluye evaluación, diseño, financiamiento e implementación.'
+    }
   },
   {
     id: 5, 
@@ -493,15 +525,31 @@ export const programsCards = [
       eng: 'EV Mobility Program',
       esp: 'Programa de movilidad EV'
     }, 
-    src: '/images/programs/card-5.svg'
+    src: '/images/programs/card-5.svg',
+    dropdownTitle: {
+      eng: 'EV CHARGERS, VAN-POOLING AND MICRO-TRANSIT',
+      esp: 'CARGADORES EV, VAN-POOLING Y MICRO-TRANSPORTE'
+    },
+    dropdownText: {
+      eng: 'This program includes assessment, design, financing, and implementation.',
+      esp: 'Este programa incluye evaluación, diseño, financiamiento e implementación.'
+    }
   },
   {
     id: 6, 
     title: {
-      eng: 'Education Program',
-      esp: 'Programa de Educación'
+      eng: 'Microgrid Program',
+      esp: 'Programa de microrred'
     }, 
-    src: '/images/programs/card-6.svg'
+    src: '/images/programs/card-6.svg',
+    dropdownTitle: {
+      eng: 'RESILIENCE & RELIABILITY',
+      esp: 'RESILIENCIA Y FIABILIDAD'
+    },
+    dropdownText: {
+      eng: 'A microgrid is a group of interconnected loads and distributed energy resources that acts as a single controllable entity with respect to the grid. It can operate in grid-connected or island mode. Microgrids can improve customer reliability and resilience. The program includes assessment, design, financing, and implementation.      ',
+      esp: 'Una microrred es un grupo de cargas interconectadas y recursos de energía distribuidos que actúa como una sola entidad controlable con respecto a la red. Puede operar en modo isla o conectado a la red. Las microrredes pueden mejorar la confiabilidad y resiliencia del cliente. El programa incluye evaluación, diseño, financiamiento e implementación.'
+    }
   },
   
 ]

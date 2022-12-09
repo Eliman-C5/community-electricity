@@ -4,7 +4,7 @@ import { LanguageContext } from '../../context/LanguageProvider'
 
 export const ZonesCard = ({mainImg, title, firstText, secondText , specialText, path, style = ''}) => {
 
-  const {spanishIsActive} = useContext( LanguageContext );
+  const {spanishIsActive, setIsModalActive} = useContext( LanguageContext );
 
   return (
     <div className={`${style} w-[316px] md:w-full xl:w-[500px] 2xl:w-[560px] h-[480px] md:h-[405px] bg-[#262626] shrink flex flex-col rounded-2xl mb-2`}>
@@ -25,7 +25,8 @@ export const ZonesCard = ({mainImg, title, firstText, secondText , specialText, 
             'Learn more'
           }
           path={path}
-          customStyle='text-[#BCAEFF] font-semibold w-full'
+          customStyle='text-[#BCAEFF] font-semibold w-full cursor-pointer'
+          onClick={() => setIsModalActive(true)}
         />
       </div>
     </div>

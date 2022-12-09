@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageProvider'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Autoplay, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -17,8 +17,13 @@ export const ZonesProgressMobile = () => {
   return (
     <div className="block md:hidden relative">
       <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
           slidesPerView={1}
           navigation={{
             nextEl: '.next-progress',

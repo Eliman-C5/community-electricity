@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Autoplay, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -16,10 +16,14 @@ export const BenefitsMobileCarusel = () => {
     <div className="lg:hidden relative">
         <Swiper
           pagination={{ clickable: true }}
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
           scrollbar={{ draggable: true }}
           spaceBetween={20}
           loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
           slidesPerView={1}
           className="mySwiper h-[420px]"
           navigation={{

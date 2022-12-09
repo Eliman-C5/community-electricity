@@ -1,5 +1,6 @@
 import React from 'react'
 import { Paths } from './Paths'
+import { CloseBtn } from '../CloseBtn'
 
 export const MobileNavbar = ({setIsMenuActive, isMenuActive}) => {
   return (
@@ -9,12 +10,9 @@ export const MobileNavbar = ({setIsMenuActive, isMenuActive}) => {
         styles={"flex flex-col w-full md:hidden rounded items-center py-4 mt-12"}
         linkStyles={' w-full pb-4 pt-12 pl-10 border-b text-white text-[16px]'}
       >
-        <button 
-          className='text-[#9885F7] w-[22px] h-[22px] font-bold ml-auto mr-6 mb-4'
-          onClick={() => setIsMenuActive(false)}
-        >
-          X
-        </button>
+      
+        <CloseBtn method={setIsMenuActive} style='font-bold ml-auto mr-6 mb-4' />
+        
       </Paths>
     
     </div>

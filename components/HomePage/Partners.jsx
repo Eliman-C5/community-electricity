@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageProvider'
 import Section from '../Wrappers/NormalAndFadeInSection'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Autoplay, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -26,9 +26,14 @@ export const Partners = () => {
       <div className='hidden md:flex justify-between'>
         <Swiper
           // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
           spaceBetween={50}
-          slidesPerView={7}
+          slidesPerView={6}
           //scrollbar={{ draggable: true }}
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}

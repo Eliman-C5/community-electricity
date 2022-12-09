@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageProvider'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Autoplay, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -16,9 +16,13 @@ export const TeamMembersMobile = ({cards, prev, next}) => {
   return (
     <div className="block sm:hidden relative">
       <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={1}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
           navigation={{
             nextEl: `.${next}`,
             prevEl: `.${prev}`,
