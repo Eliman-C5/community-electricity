@@ -25,7 +25,7 @@ export const Navbar = () => {
           <img
             src="/images/logo.png"
             alt="Community logo"
-            className="cursor-pointer w-[138px] h-[48px]"
+            className="cursor-pointer w-[138px] h-[48px] bg-contain"
           />
         </Link>
         

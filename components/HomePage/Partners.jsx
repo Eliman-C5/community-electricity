@@ -58,7 +58,11 @@ export const Partners = () => {
       <div className='flex md:hidden justify-between'>
         <Swiper
           // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
           spaceBetween={50}
           slidesPerView={3}
           //scrollbar={{ draggable: true }}

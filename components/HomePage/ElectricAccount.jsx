@@ -54,10 +54,10 @@ export const ElectricAccount = () => {
           onSlideChange={() => console.log('slide change')}
           className='block md:hidden w-full mt-[40px]'
         >
-          <SwiperSlide>
+          <SwiperSlide className='my-auto'>
             <StartUsingItem spanishIsActive={spanishIsActive} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='my-auto'>
             <ComingSoon spanishIsActive={spanishIsActive} />
           </SwiperSlide>
         </Swiper>

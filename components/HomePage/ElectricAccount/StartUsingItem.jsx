@@ -4,7 +4,7 @@ import { ArrowBtn } from '../../Atoms/ArrowBtn'
 
 export const StartUsingItem = ({spanishIsActive}) => {
   return (
-    <div className="w-full flex flex-col justify-center gap-8 pr-4">
+    <div className="w-full flex flex-col justify-center gap-8 pr-4 my-auto">
       <h2 className='title-mobile md:text-[35px]'>
         {
           spanishIsActive ?
