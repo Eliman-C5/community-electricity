@@ -20,7 +20,7 @@ export const FormModal = () => {
       >
         <CloseBtn method={setIsModalActive} style='absolute right-0 top-0 mt-2 mr-2 md:mt-4 md:mr-4' />
         
-        <h4 className='text-black font-semibold leading-10 text-[26px] md:text-[35px] mt-2'>
+        <h4 className='text-black font-semibold text-[22px] md:leading-10 md:text-[35px] mt-2'>
           {
             spanishIsActive ?
             'Completa el formulario para comenzar a utilizar tu cuenta de banco eléctrico' :
@@ -31,16 +31,24 @@ export const FormModal = () => {
         <div className="h-[1px] w-1/2 bg-black my-4"></div>
         
         <div className="flex flex-col gap-4">
-          <input 
-            type="text" 
-            placeholder={ spanishIsActive ? 'Nombre' : 'Name'  }
-            className='outline-0 pl-3 text-black bg-[#F5F5F5] w-full h-[40px]'
-          />
-          <input 
-            type="email" 
-            placeholder={ spanishIsActive ? 'Correo eléctronico' : 'Email'  }
-            className='outline-0 pl-3 text-black  bg-[#F5F5F5] w-full h-[40px]'
-          />
+          <div className="flex relative">
+            <input 
+              type="text" 
+              placeholder={ spanishIsActive ? 'Nombre' : 'Name'  }
+              className='outline-0 pl-12 text-black bg-[#F5F5F5] w-full h-[40px]'
+            />
+            <img src="/images/user.svg" alt="" className='absolute left-3 top-[19%]' />
+          </div>
+          
+          <div className="flex relative">
+            <input 
+              type="email" 
+              placeholder={ spanishIsActive ? 'Correo eléctronico' : 'Email'  }
+              className='outline-0 pl-12 text-black bg-[#F5F5F5] w-full h-[40px]'
+            />
+            <img src="/images/mail.svg" alt="" className='absolute left-3 top-[19%]' />
+          </div>
+          
           <PurpleBtn text={ spanishIsActive ? 'Enviar' : 'Submit'  } customStyle='max-w-[120px] md:w-full h-[40px]'/>
         </div>
         
