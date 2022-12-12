@@ -19,8 +19,7 @@ export const DappSection = () => {
           The <img src="/images/glu.png" alt="" className='h-[40px] md:h-[60px]' /> dapp
           </div>
           
-          <img src="/images/glu movil.png" alt="" className='hidden md:block' />
-          <img src="/images/glu movil-mobile.png" alt="" className='block md:hidden' />
+          <img src="/images/glu movil.png" alt="" />
           
           <p className='my-4 font-bold'>
           {
