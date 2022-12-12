@@ -11,16 +11,16 @@ export const ZonesHeader = () => {
       styles={'bg-[url("/images/zones/zonesHeader.png")] h-[578px] justify-center'}
     >
       <div className="flex px-8 md:px-6 gap-4">
-        <a className="font-bold text-[20px] md:text-[22px]" href="https://www.climatetechinnovationzone.io/" rel="noreferrer" target='_blank'>
+        <h4 className="font-bold text-[20px] md:text-[22px]" >
           {
             spanishIsActive ?
             'Zona de innovación Climatetech' :
             'Climatetech Innovation Zone'
           }
-        </a>
-        <button className="" >
+        </h4>
+        <a className="" href="https://www.climatetechinnovationzone.io/" rel="noreferrer" target='_blank'>
           <img src="/images/zones/headerbtn.svg" alt="" />
-        </button>
+        </a>
       </div>
     </HeaderWrapper>
   )

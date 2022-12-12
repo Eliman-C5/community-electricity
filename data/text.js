@@ -668,7 +668,7 @@ export const teamMembers = [
       eng: 'Finance & Accounting',
       esp: 'Finanzas & Contabilidad'
     },
-    linkedin: 'https://community-electricity.vercel.app'
+    linkedin: null
   },
 ]
 
@@ -842,22 +842,164 @@ export const zonesCardsTexts = [
   },
 ]
 
-export const benefitsCards = {
-  text: [
+export const benefitsCards = [
     {
       id: 1,
-      esp: 'Empoderar y dirigir a las agencias para que exploren y aceleren la adopción de nuevas tecnologías energéticas.',
-      eng: 'Empower and direct agencies to explore and accelerate the adoption of new energy technologies.'
+      title: {
+        esp: 'Impulsar la innovación tecnológica:',
+        eng: 'Drive Technology Innovation:'
+      },
+      texts: [
+        {
+          id: 1,
+          esp: 'Empoderar y dirigir a las agencias para que exploren y aceleren la adopción de nuevas tecnologías energéticas.',
+          eng: 'Empower and direct agencies to explore and accelerate the adoption of new energy technologies.'
+        },
+        {
+          id: 2,
+          esp: 'Alentar a las empresas de servicios públicos reguladas a buscar tecnologías energéticas innovadoras y ofrecer opciones a los clientes.',
+          eng: 'Encourage regulated utilities to pursue innovative energy technologies and offer customer choices.'
+        },
+        {
+          id: 3,
+          esp: 'Poner a prueba tecnologías emergentes en asociación con agencias y servicios públicos locales.',
+          eng: 'Pilot emerging technologies in partnership with local agencies and utilities.'
+        },
+        {
+          id: 4,
+          esp: 'Apoyar directamente la I+D a través de innovadores programas de prosumidores y desarrollar tecnologías y conocimientos locales.',
+          eng: 'Directly support R&D through innovative Prosumer programs and develop local technologies and expertise.'
+        },
+      ]
     },
     {
       id: 2,
-      esp: 'Alentar a las empresas de servicios públicos reguladas a buscar tecnologías energéticas innovadoras y ofrecer opciones a los clientes.',
-      eng: 'Encourage regulated utilities to pursue innovative energy technologies and offer customer choices.'
+      title: {
+        esp: 'Modernizar la legislación, las políticas y los incentivos:',
+        eng: 'Modernize legislation, policy, and incentives:'
+      },
+      texts: [
+        {
+          id: 1,
+          esp: 'Impulsar iniciativas de modernización de la red.',
+          eng: 'Promote grid modernization initiatives.'
+        },
+        {
+          id: 2,
+          esp: 'Implementar incentivos de desempeño que recompensen a las empresas de servicios públicos por cumplir con los objetivos de las políticas.',
+          eng: 'Implement performance incentives that reward utilities for meeting policy goals.'
+        },
+        {
+          id: 3,
+          esp: 'Fomentar la competencia entre las eléctricas tradicionales y terceros.',
+          eng: 'Foster competition between traditional utilities and third parties.'
+        },
+        {
+          id: 4,
+          esp: 'Incluir programas piloto en las estructuras de recuperación de costos y fijación de tarifas.',
+          eng: 'Include pilot programs in cost recovery and rate-making structures.'
+        },
+      ]
     },
     {
       id: 3,
-      esp: 'Poner a prueba tecnologías emergentes en asociación con agencias y servicios públicos locales.',
-      eng: 'Pilot emerging technologies in partnership with local agencies and utilities.'
+      title: {
+        esp: 'Proporcionar financiación y mecanismos de financiación para la innovación en tecnologías limpias:',
+        eng: 'Provide funding and financing mechanisms for cleantech innovation:'
+      },
+      texts: [
+        {
+          id: 1,
+          esp: 'Alentar la adopción de incentivos financieros para impulsar el despliegue de tecnologías energéticas innovadoras.',
+          eng: 'Encourage the adoption of financial incentives to drive the deployment of innovative energy technologies.'
+        },
+        {
+          id: 2,
+          esp: 'Dirigir a los organismos públicos en el desarrollo de Bonos Verdes para financiar proyectos sostenibles.',
+          eng: 'Direct public agencies in the development of Green Bonds to finance sustainable projects.'
+        },
+        {
+          id: 3,
+          esp: 'Alentar las subvenciones estatales y federales o programas para avanzar en el despliegue de nuevas tecnologías.',
+          eng: 'Encourage State and Federal grants or programs to advance the deployment of new technologies.'
+        },
+        {
+          id: 4,
+          esp: 'Impulsar un Marketplace Digital para inversores privados cualificados (crowdfunding). Eso puede incluir miembros de la comunidad.',
+          eng: 'Promote a Digital Marketplace for qualified private investors (crowdfunding). That may include community members.'
+        },
+        {
+          id: 5,
+          esp: 'Monetizar el capital natural para financiar la modernización local y la nueva construcción totalmente eléctrica.',
+          eng: 'Monetizing natural capital to fund local retrofitting and all-electric new construction.'
+        },
+      ]
     },
-  ],
-}
+    {
+      id: 4,
+      title: {
+        esp: 'Preparar la fuerza de trabajo:',
+        eng: 'Prepare the workforce:'
+      },
+      texts: [
+        {
+          id: 1,
+          esp: 'Proporcionar programas de desarrollo de la fuerza laboral para estudiantes de colegios comunitarios y miembros de la comunidad que promuevan la eficiencia energética, la respuesta a la demanda, la conservación del agua, los recursos renovables, etc.',
+          eng: 'Provide workforce development programs for Community College students and community members promoting energy efficiency, demand response, water conservation, renewable resources, etc.'
+        },
+        {
+          id: 2,
+          esp: 'Asóciese con la industria para identificar brechas de habilidades y disponibilidad de mano de obra.',
+          eng: 'Partner with the industry to identify skill gaps and workforce availability.'
+        },
+      ]
+    },
+    {
+      id: 5,
+      title: {
+        esp: 'Actualizar redes de comunicaciones y sistemas de datos:',
+        eng: 'Update communications networks and data systems:'
+      },
+      texts: [
+        {
+          id: 1,
+          esp: 'Alentar a las agencias públicas a acceder a las eficiencias de infraestructura.',
+          eng: 'Encourage public agencies to access infrastructure efficiencies.'
+        },
+        {
+          id: 2,
+          esp: 'Asóciese con la industria para identificar brechas de habilidades y disponibilidad de mano de obra.',
+          eng: `Develop policies and programs to facilitate the state's transition to a "smart state."`
+        },
+        {
+          id: 3,
+          esp: 'Satisfaga las necesidades de banda ancha de las comunidades desatendidas.',
+          eng: `Meet the broadband needs of underserved communities.`
+        },
+        {
+          id: 4,
+          esp: 'Incorporar la ciberseguridad en las actualizaciones de infraestructura.',
+          eng: `Incorporate cybersecurity into infrastructure upgrades.`
+        },
+        {
+          id: 5,
+          esp: 'Coordinar los roles y el intercambio de información entre las partes interesadas.',
+          eng: `Coordinate roles and information sharing across stakeholders.`
+        },
+      ]
+    },
+    {
+      id: 6,
+      title: {
+        esp: 'Involucrar y educar a los miembros de la comunidad:',
+        eng: 'Engage and Educate Community Members:'
+      },
+      texts: [
+        {
+          id: 1,
+          esp: 'Dirigir a las agencias y organizaciones locales para que desarrollen las actividades de extensión comunitaria necesarias para apoyar el despliegue de tecnologías energéticas innovadoras.',
+          eng: 'Direct agencies and local organizations to develop community outreach activities needed to support the deployment of innovative energy technologies.'
+        },
+      ]
+    },
+]

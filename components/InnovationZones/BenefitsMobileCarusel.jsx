@@ -9,8 +9,6 @@ import { BenefitsCard } from './BenefitsCard';
 import { benefitsCards } from '../../data/text';
 import { SwiperNavButtons } from '../Atoms/SwiperNavButtons';
 
-const items = [1, 2, 3, 4, 5, 6];
-
 export const BenefitsMobileCarusel = () => {
   return (
     <div className="lg:hidden relative">
@@ -25,17 +23,17 @@ export const BenefitsMobileCarusel = () => {
             disableOnInteraction: false,
           }}
           slidesPerView={1}
-          className="mySwiper h-[420px]"
+          className="mySwiper h-[540px]"
           navigation={{
             nextEl: '.next-benefits',
             prevEl: '.prev-benefits',
           }}
         >
-          {items.map((item) => (
-          <SwiperSlide key={item} className='mx-auto flex'>
+          {benefitsCards.map((item) => (
+          <SwiperSlide key={item.id} className='mx-auto flex'>
             <BenefitsCard 
-              title={'Drive Technology Innovation:'}
-              cards={benefitsCards.text}
+              title={item.title}
+              cards={item.texts}
               style='mx-auto'
             />
           </SwiperSlide>

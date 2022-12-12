@@ -9,8 +9,6 @@ import { benefitsCards } from '../../data/text'
 import { BenefitsCard } from './BenefitsCard'
 import Section from '../Wrappers/NormalAndFadeInSection'
 
-const items = [1, 2, 3, 4, 5, 6];
-
 export const BenefitsDesktopCarusel = () => {
   return (
     <Section>
@@ -28,13 +26,13 @@ export const BenefitsDesktopCarusel = () => {
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
-            className='h-[380px]'
+            className='h-[420px]'
           >
-            {items.map((item) => (
-              <SwiperSlide key={item}>
+            {benefitsCards.map((item) => (
+              <SwiperSlide key={item.id}>
                 <BenefitsCard 
-                title={'Drive Technology Innovation:'}
-                cards={benefitsCards.text}
+                title={item.title}
+                cards={item.texts}
               />
               </SwiperSlide>
           ))}
