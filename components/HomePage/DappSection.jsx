@@ -23,7 +23,7 @@ export const DappSection = () => {
           <img 
             src="/images/glu movil.png" 
             alt="About Home" 
-            className='w-[265px] h-[180px] bg-cover md:w-[350px] md:h-[250px]' 
+            className='' 
           />
           
           <p className='my-4 font-bold'>

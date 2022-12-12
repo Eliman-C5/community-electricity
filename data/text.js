@@ -129,6 +129,10 @@ export const dappSection = {
       id: 3,
       text: 'Permite a los miembros optimizar la producción eléctrica en conjunción con baterias. Proporcionar flexibilidad de activos maximizando los ingresos mediante la venta de excendetes de electricidad a precios tácticos a la red y pronto entre vecinos.',
     },
+    {
+      id: 4,
+      text: 'Un sistema operativo comunitario que usa IA y blockchain para conectar, administrar y optimizar todos los activos en el hogar, lo que incentiva los esfuerzos de micro descarbonización en el borde de la red.'
+    }
   ],
   eng: [
     {
@@ -143,6 +147,10 @@ export const dappSection = {
       id: 3,
       text: 'Allows members to optimize electricity production in conjunction with batteries. Providing asset flexibility maximizing revenues by selling surplus electricity at tactical prices back to the grid and soon between neighbors.',
     },
+    {
+      id: 4,
+      text: 'A CommunityOS that uses AI and blockchain to connect, manage and optimize all assets in the home—incentivizing micro decarbonization efforts at the edge of the grid.'
+    }
   ]
 }
 

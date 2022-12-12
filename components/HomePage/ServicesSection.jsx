@@ -66,7 +66,7 @@ export const ServicesSection = () => {
     <div className="flex justify-center gap-4 mt-[40px]">
       <img 
         src="/images/watch.svg" 
-        className='w-fit h-fit' 
+        className='w-fit h-fit cursor-pointer' 
         alt="Play-button-gif" 
         onClick={() => setIsGifActive(!isGifActive)}
       />
