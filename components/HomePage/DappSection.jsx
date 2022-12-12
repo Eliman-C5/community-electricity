@@ -20,11 +20,10 @@ export const DappSection = () => {
             alt="About Home" 
             className='w-[180px] h-[44px] md:w-[252px] md:h-[56px] mt-[15px]' 
           />
-          <img 
-            src="/images/glu movil.png" 
-            alt="About Home" 
-            className='' 
-          />
+          <div className="flex">
+            <img src="/images/glu-movil-1.png" alt="" className='w-[127px] md:w-fit md:h-fit z-10' />
+            <img src="/images/glu-movil-2.png" alt="" className='w-[240px] h-[121px] mt-24 md:h-fit md:w-fit relative -left-20 md:mt-28' />
+          </div>
           
           <p className='my-4 font-bold'>
           {
