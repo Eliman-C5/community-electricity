@@ -4,6 +4,7 @@ import { Paths } from './Paths'
 import { MobileNavbar } from './MobileNavbar'
 import { LanguageContext } from '../../../context/LanguageProvider'
 import { FormModal } from '../FormModal'
+import { TranslateBtn } from '../TranslateBtn'
 
 //Crear estado global Reducer + Context para manejar bien el mobileNavbar
 //Crear tambien una forma de que el cambio de idioma persista
@@ -32,12 +33,21 @@ export const Navbar = () => {
         <Paths styles={"hidden md:flex items-center gap-10 pl-12"} />
         
         {/* Volverlo un componente */}
-        <button 
-          className='hidden md:block text-white bg-black my-auto h-[33px] px-[20px]'
-          onClick={() => setIsModalActive(true)}
-        >
-          Contact us
-        </button>
+        <div className="my-auto hidden md:flex gap-4">
+          <button 
+            className='text-white bg-black my-auto h-[33px] px-[20px]'
+            onClick={() => setIsModalActive(true)}
+          >
+            {
+              spanishIsActive ?
+              'Contáctanos' :
+              'Contact us'
+            }
+          </button>
+        
+        
+          <TranslateBtn />
+        </div>
         
         <img 
           src="/images/hamburger-menu.svg" 

@@ -19,7 +19,6 @@ export const Header = () => {
       
           <h1 
             className='title-mobile md:text-[35px] text-center'
-            onClick={() => setSpanishIsActive(!spanishIsActive)}
           >
             {spanishIsActive ? headerTitle.esp : headerTitle.eng}
           </h1>
