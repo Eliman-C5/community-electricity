@@ -5,6 +5,7 @@ import { ProgramBox } from './About/ProgramBox'
 import { AboutTexts } from './About/AboutTexts'
 import { AboutSlider } from './About/AboutSlider'
 import { sliderReducer } from '../../reducers/sliderReducer'
+import { AboutSliderMobile } from './About/AboutSliderMobile'
 
 const initialState = 0
 
@@ -19,6 +20,7 @@ export const AboutSection = () => {
       <ProgramBox spanishIsActive={spanishIsActive} sliderDispatch={sliderDispatch} />
       <AboutTexts spanishIsActive={spanishIsActive} />
       <AboutSlider spanishIsActive={spanishIsActive} slider={slider} sliderDispatch={sliderDispatch} />
+      <AboutSliderMobile />
     </Section>
   )
 }

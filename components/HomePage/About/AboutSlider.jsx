@@ -8,7 +8,7 @@ export const AboutSlider = ({spanishIsActive, slider, sliderDispatch}) => {
   
   return (
     <>
-      <div className='w-full flex overflow-hidden mt-16 mb-5'>
+      <div className='w-full hidden lg:flex overflow-hidden mt-16 mb-5'>
       {
         spanishIsActive ?
           aboutCarusel.esp.map(slide => slide.id === slider  && (
@@ -29,7 +29,7 @@ export const AboutSlider = ({spanishIsActive, slider, sliderDispatch}) => {
           ))
       }
       </div>
-      <div className="flex justify-center gap-4">
+      <div className="hidden lg:flex justify-center gap-4">
         <SliderCircle slider={slider} number={0} onClick={() => sliderDispatch({type: TYPES.FIRST })} />
         <SliderCircle slider={slider} number={1} onClick={() => sliderDispatch({type: TYPES.SECOND })} />
         <SliderCircle slider={slider} number={2} onClick={() => sliderDispatch({type: TYPES.THIRD })} />

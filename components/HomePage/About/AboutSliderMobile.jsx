@@ -9,25 +9,25 @@ import 'swiper/css/scrollbar';
 import { useSwiper } from 'swiper/react';
 import { aboutCarusel } from '../../../data/text';
 
-export const AboutCarusel = ({spanishIsActive}) => {
+export const AboutSliderMobile = ({spanishIsActive}) => {
 
   return (
-  <div className="">
+  <div className="lg:hidden">
     <Swiper
       // install Swiper modules
       modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
       slidesPerView={1.1}
-      // loop={true}
-      // autoplay={{
-      //   delay: 3000,
-      //   disableOnInteraction: false,
-      // }}
+      loop={true}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+      }}
       scrollbar={{ draggable: true }}
       pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
-      className='mt-[60px] max-w-[1440px] mx-auto'
+      className='mt-[60px]'
     >
       {
         spanishIsActive ?
@@ -36,8 +36,8 @@ export const AboutCarusel = ({spanishIsActive}) => {
               <AboutSectionCard 
                 src={slide.src} 
                 title={slide.title} 
-                text={slide.text} 
-                btn={slide.btn} />
+                text={slide.text}
+              />
             </SwiperSlide>
           )) :
           aboutCarusel.eng.map(slide => (
@@ -46,7 +46,7 @@ export const AboutCarusel = ({spanishIsActive}) => {
                 src={slide.src} 
                 title={slide.title} 
                 text={slide.text} 
-                btn={slide.btn} />
+              />
             </SwiperSlide>
           ))
       }
