@@ -16,11 +16,16 @@ export const AboutSection = () => {
   const {spanishIsActive} = useContext( LanguageContext );
   
   return (
+  <>
     <Section>
       <ProgramBox spanishIsActive={spanishIsActive} sliderDispatch={sliderDispatch} />
       <AboutTexts spanishIsActive={spanishIsActive} />
       <AboutSlider spanishIsActive={spanishIsActive} slider={slider} sliderDispatch={sliderDispatch} />
       <AboutSliderMobile />
     </Section>
+    <div className="relative">
+      <video src="https://res.cloudinary.com/datsipxkz/video/upload/v1671112467/Community/community-gif_ngzyfg.mp4" autoPlay muted loop playsInline className='w-full bg-cover' />
+    </div>
+  </>
   )
 }
