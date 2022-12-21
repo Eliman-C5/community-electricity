@@ -22,7 +22,7 @@ export const StartUsingItem = ({spanishIsActive}) => {
               electricAccount.calculator.eng
             }
             path={'/images/white-arrow.svg'}
-            customStyle={'mt-auto text-[16px] pl-4 md:pl-0'}
+            customStyle={'mt-auto text-[14px] md:pl-4 md:pl-0'}
           />
       </div>
     </div>
