@@ -22,9 +22,12 @@ export const AboutSection = () => {
       <AboutTexts spanishIsActive={spanishIsActive} />
       <AboutSlider spanishIsActive={spanishIsActive} slider={slider} sliderDispatch={sliderDispatch} />
       <AboutSliderMobile />
+      <div className="my-[40px] md:my-[80px] hidden md:block">
+        <video src="https://res.cloudinary.com/datsipxkz/video/upload/v1671112467/Community/community-gif_ngzyfg.mp4" autoPlay muted loop playsInline className='w-full bg-cover' />
+      </div>
     </Section>
-    <div className="relative">
-      <video src="https://res.cloudinary.com/datsipxkz/video/upload/v1671112467/Community/community-gif_ngzyfg.mp4" autoPlay muted loop playsInline className='w-full bg-cover' />
+    <div className="my-[40px] md:my-[80px] block md:hidden">
+        <video src="https://res.cloudinary.com/datsipxkz/video/upload/v1671112467/Community/community-gif_ngzyfg.mp4" autoPlay muted loop playsInline className='w-full bg-cover' />
     </div>
   </>
   )

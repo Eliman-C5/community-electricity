@@ -34,6 +34,8 @@ export const AboutSlider = ({spanishIsActive, slider, sliderDispatch}) => {
         <SliderCircle slider={slider} number={1} onClick={() => sliderDispatch({type: TYPES.SECOND })} />
         <SliderCircle slider={slider} number={2} onClick={() => sliderDispatch({type: TYPES.THIRD })} />
         <SliderCircle slider={slider} number={3} onClick={() => sliderDispatch({type: TYPES.FOURTH })} />
+        <SliderCircle slider={slider} number={4} onClick={() => sliderDispatch({type: TYPES.FIFTH })} />
+        <SliderCircle slider={slider} number={5} onClick={() => sliderDispatch({type: TYPES.SIXTH })} />
       </div>
     </>
     

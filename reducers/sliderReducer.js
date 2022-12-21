@@ -19,6 +19,14 @@ export const sliderReducer = (state, action) => {
     case TYPES.FOURTH:
 
       return 3
+      
+    case TYPES.FIFTH:
+    
+      return 4
+      
+    case TYPES.SIXTH:
+    
+      return 5
     
     default:
       return state

@@ -3,6 +3,8 @@ export const TYPES = {
   SECOND: 'SECOND',
   THIRD: 'THIRD',
   FOURTH: 'FOURTH',
+  FIFTH: 'FIFTH',
+  SIXTH: 'SIXTH'
 }
 
 export const NAVBAR_TYPES = {

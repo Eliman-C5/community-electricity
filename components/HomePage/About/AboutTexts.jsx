@@ -3,11 +3,11 @@ import { aboutSection } from '../../../data/text'
 
 export const AboutTexts = ({spanishIsActive}) => {
   return (
-    <div className="flex flex-col md:flex-row gap-8 xl:gap-20">
+    <div className="flex flex-col lg:flex-row gap-8 xl:gap-20">
         
         {/*  Componetizar para quitar llaves. Mover los textos a text.js para que sea mas legible */}
-        <div className="block md:hidden">
-          <h2 className='title-mobile md:title block md:hidden'>
+        <div className="block lg:hidden">
+          <h2 className='title-mobile lg:title block lg:hidden'>
             {
               spanishIsActive ?
               'Acerca' :
@@ -17,18 +17,18 @@ export const AboutTexts = ({spanishIsActive}) => {
             
           {
             spanishIsActive ?
-            aboutSection.esp.map(info => info.id !== 3 && <p key={info.id} className='my-4'>{info.text}</p>) :
-            aboutSection.eng.map(info => info.id !== 3 && <p key={info.id} className='my-4'>{info.text}</p>)
+            aboutSection.esp.map(info => info.id !== 4 && <p key={info.id} className='my-4'>{info.text}</p>) :
+            aboutSection.eng.map(info => info.id !== 4 && <p key={info.id} className='my-4'>{info.text}</p>)
           }
         </div>
           
-        <img src="/images/aboutHome.png" alt="About Home" className='w-full mx-auto md:h-[300px] md:w-1/2  xl:w-[560px] xl:h-[435px]' />
+        <img src="/images/aboutHome.png" alt="About Home" className='w-full mx-auto lg:h-[300px] lg:w-1/2  xl:w-[560px] xl:h-[435px]' />
         
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           {
             spanishIsActive ?
-            aboutSection.esp.map(info => info.id === 3 && <p key={info.id} className='my-4'>{info.text}</p>) :
-            aboutSection.eng.map(info => info.id === 3 && <p key={info.id} className='my-4'>{info.text}</p>)
+            aboutSection.esp.map(info => info.id === 4 && <p key={info.id} className='my-4'>{info.text}</p>) :
+            aboutSection.eng.map(info => info.id === 4 && <p key={info.id} className='my-4'>{info.text}</p>)
           }
         </div>
         
@@ -42,7 +42,7 @@ export const AboutTexts = ({spanishIsActive}) => {
           }
           </h2>
           
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
           {
             spanishIsActive ?
             aboutSection.esp.map(info => <p key={info.id} className='my-2'>{info.text}</p>) :
