@@ -11,7 +11,7 @@ export const AboutSectionCard = ({title, text, src, style = 'h-full', imgStyle =
           <LearnMoreBtn link={'/programs'} newStyles='text-black' path={false} />
         </div>
         <div className="flex items-center justify-center h-2/5 md:w-1/2 md:h-full order-1">
-          <img src={src} alt="slide in about section" className={`h-full ${imgStyle} md:ml-auto object-cover md:object-contain`}/>
+          <img src={src} alt="slide in about section" className={`h-full ${imgStyle} md:ml-auto object-cover`}/>
         </div>
     </FadeInSection>
   )

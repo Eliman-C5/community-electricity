@@ -248,13 +248,13 @@ export const aboutCarusel = {
     },
     {
       id: 4, 
-      src: '/images/slider/slider-2.png', 
+      src: '/images/slider/slider-5.png', 
       title: 'EV Mobility Program', 
       text: `We implement EV Mobility services within Multi-Family buildings or strategic locations across the community.`,
     },
     {
       id: 5, 
-      src: '/images/slider/slider-2.png', 
+      src: '/images/slider/slider-6.png', 
       title: 'Resilient Microgrid Program', 
       text: `Our Microgrid program provides community members and critical facilities with resilience hubs that keeping electricity flowing throughout power outages.`,
     },

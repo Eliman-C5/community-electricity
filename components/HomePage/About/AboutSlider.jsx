@@ -17,6 +17,7 @@ export const AboutSlider = ({spanishIsActive, slider, sliderDispatch}) => {
                 src={slide.src} 
                 title={slide.title} 
                 text={slide.text} 
+                imgStyle={slide.id === 3 && 'p-6'}
               />
           )) :
           aboutCarusel.eng.map(slide => slide.id === slider && (
@@ -24,7 +25,8 @@ export const AboutSlider = ({spanishIsActive, slider, sliderDispatch}) => {
                 key={slide.id} 
                 src={slide.src} 
                 title={slide.title} 
-                text={slide.text} 
+                text={slide.text}
+                imgStyle={slide.id === 3 && 'p-6'}
               />
           ))
       }

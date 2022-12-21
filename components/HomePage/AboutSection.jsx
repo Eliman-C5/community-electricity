@@ -23,7 +23,7 @@ export const AboutSection = () => {
       <AboutTexts spanishIsActive={spanishIsActive} />
       <AboutSlider spanishIsActive={spanishIsActive} slider={slider} sliderDispatch={sliderDispatch} />
       <AboutSliderMobile />
-      <CommunityGif style={'hidden md:block'} />
+      <CommunityGif style={'hidden md:block'} width='' />
     </Section>
     <CommunityGif style={'md:hidden'} />
   </>
