@@ -22,7 +22,7 @@ export const AboutTexts = ({spanishIsActive}) => {
           }
         </div>
           
-        <img src="/images/aboutHome.png" alt="About Home" className='w-full mx-auto lg:h-[300px] lg:w-1/2  xl:w-[560px] xl:h-[435px]' />
+        <img src="/images/aboutHome.png" alt="About Home" className='w-full mr-auto lg:h-[300px] lg:w-1/2  xl:w-[560px] xl:h-[435px]' />
         
         <div className="block lg:hidden">
           {
