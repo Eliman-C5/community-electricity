@@ -37,7 +37,7 @@ export const AboutSliderMobile = ({spanishIsActive}) => {
                 src={slide.src} 
                 title={slide.title} 
                 text={slide.text}
-                imgStyle={slide.id === 3 && 'w-2/3 pt-5'}
+                imgStyle={slide.id > 1 && 'p-4'}
               />
             </SwiperSlide>
           )) :
@@ -47,7 +47,7 @@ export const AboutSliderMobile = ({spanishIsActive}) => {
                 src={slide.src} 
                 title={slide.title} 
                 text={slide.text} 
-                imgStyle={slide.id === 3 && 'w-2/3 pt-5'}
+                imgStyle={slide.id > 1 && 'p-4'}
               />
             </SwiperSlide>
           ))
