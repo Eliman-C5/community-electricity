@@ -17,7 +17,7 @@ export const AboutSliderMobile = ({spanishIsActive}) => {
       // install Swiper modules
       modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
-      slidesPerView={1.1}
+      slidesPerView={1}
       loop={true}
       autoplay={{
         delay: 3000,
@@ -37,6 +37,7 @@ export const AboutSliderMobile = ({spanishIsActive}) => {
                 src={slide.src} 
                 title={slide.title} 
                 text={slide.text}
+                imgStyle={slide.id === 3 && 'w-2/3 pt-5'}
               />
             </SwiperSlide>
           )) :
@@ -46,6 +47,7 @@ export const AboutSliderMobile = ({spanishIsActive}) => {
                 src={slide.src} 
                 title={slide.title} 
                 text={slide.text} 
+                imgStyle={slide.id === 3 && 'w-2/3 pt-5'}
               />
             </SwiperSlide>
           ))

@@ -6,6 +6,7 @@ import { AboutTexts } from './About/AboutTexts'
 import { AboutSlider } from './About/AboutSlider'
 import { sliderReducer } from '../../reducers/sliderReducer'
 import { AboutSliderMobile } from './About/AboutSliderMobile'
+import {CommunityGif} from '../Atoms/CommunityGif'
 
 const initialState = 0
 
@@ -22,13 +23,9 @@ export const AboutSection = () => {
       <AboutTexts spanishIsActive={spanishIsActive} />
       <AboutSlider spanishIsActive={spanishIsActive} slider={slider} sliderDispatch={sliderDispatch} />
       <AboutSliderMobile />
-      <div className="my-[40px] md:my-[80px] hidden md:block">
-        <video src="https://res.cloudinary.com/datsipxkz/video/upload/v1671112467/Community/community-gif_ngzyfg.mp4" autoPlay muted loop playsInline className='w-full bg-cover' />
-      </div>
+      <CommunityGif style={'hidden md:block'} />
     </Section>
-    <div className="my-[40px] md:my-[80px] block md:hidden">
-        <video src="https://res.cloudinary.com/datsipxkz/video/upload/v1671112467/Community/community-gif_ngzyfg.mp4" autoPlay muted loop playsInline className='w-full bg-cover' />
-    </div>
+    <CommunityGif style={'md:hidden'} />
   </>
   )
 }

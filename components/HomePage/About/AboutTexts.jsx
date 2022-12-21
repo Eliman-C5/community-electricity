@@ -17,8 +17,8 @@ export const AboutTexts = ({spanishIsActive}) => {
             
           {
             spanishIsActive ?
-            aboutSection.esp.map(info => info.id !== 4 && <p key={info.id} className='my-4'>{info.text}</p>) :
-            aboutSection.eng.map(info => info.id !== 4 && <p key={info.id} className='my-4'>{info.text}</p>)
+            aboutSection.esp.map(info => info.id < 3 && <p key={info.id} className='my-4'>{info.text}</p>) :
+            aboutSection.eng.map(info => info.id < 3 && <p key={info.id} className='my-4'>{info.text}</p>)
           }
         </div>
           
@@ -27,8 +27,8 @@ export const AboutTexts = ({spanishIsActive}) => {
         <div className="block lg:hidden">
           {
             spanishIsActive ?
-            aboutSection.esp.map(info => info.id === 4 && <p key={info.id} className='my-4'>{info.text}</p>) :
-            aboutSection.eng.map(info => info.id === 4 && <p key={info.id} className='my-4'>{info.text}</p>)
+            aboutSection.esp.map(info => info.id >= 3 && <p key={info.id} className='my-4'>{info.text}</p>) :
+            aboutSection.eng.map(info => info.id >= 3 && <p key={info.id} className='my-4'>{info.text}</p>)
           }
         </div>
         
@@ -49,8 +49,6 @@ export const AboutTexts = ({spanishIsActive}) => {
             aboutSection.eng.map(info => <p key={info.id} className='my-2'>{info.text}</p>)
           }
           </div>
-        
-          {/* <LearnMoreBtn link={'/programs'} boxStyles='' spanishIsActive={spanishIsActive} /> */}
         
         </div>
         
