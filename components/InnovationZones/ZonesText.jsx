@@ -56,7 +56,7 @@ export const ZonesText = () => {
         <img src="/images/zones/zoneBigImgMobile.png" alt="" className='h-full w-fit block sm:hidden' />
       </div>
       <Section>
-        <img src="/images/zones/middleimg.png" className='mx-auto w-fit h-fit hidden md:block' alt="Image in zone page" />
+        <img src="/images/zones/madeInLA.png" className='mx-auto w-fit h-fit hidden md:block' alt="Image in zone page" />
       </Section>
     </>
   )

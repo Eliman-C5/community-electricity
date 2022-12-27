@@ -8,7 +8,7 @@ export const AboutSlider = ({spanishIsActive, slider, sliderDispatch}) => {
   
   return (
     <>
-      <div className='w-full hidden lg:flex overflow-hidden mt-16 mb-5'>
+      <div className='w-full hidden lg:flex overflow-hidden my-8'>
       {
         spanishIsActive ?
           aboutCarusel.esp.map(slide => slide.id === slider  && (

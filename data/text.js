@@ -127,7 +127,7 @@ export const dappSection = {
   esp: [
     {
       id: 1,
-      text: 'Atrae, conecta, y moviliza al consumidor de electricidad a convertirse en un prosumidor: productor, consumidor, y comerciantes de electricidad limpia y local.',
+      text: 'Atrae, conecta, y moviliza al consumidor de electricidad a convertirse en un prosumidor: productor, consumidor, y comerciantes diarios de electricidad limpia y local.',
     },
     {
       id: 2,
@@ -145,7 +145,7 @@ export const dappSection = {
   eng: [
     {
       id: 1,
-      text: 'Seamlessly engages, connects, and mobilizes electricity consumers to become prosumers: producers, consumers, and traders of local clean electricity.',
+      text: 'Seamlessly engages, connects, and mobilizes electricity consumers to become prosumers: producers, consumers, and day traders of local clean electricity.',
     },
     {
       id: 2,

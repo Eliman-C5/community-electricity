@@ -2,8 +2,8 @@ import React, { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageProvider'
 import { dappSection } from '../../data/text'
 import Section from '../Wrappers/NormalAndFadeInSection'
-// import { LearnMoreBtn } from '../Atoms/LearnMoreBtn'
 import { TextItem } from './ElectricAccount/TextItem'
+import { TheGluTitle} from './Dapp/TheGluTitle'
 
 export const DappSection = () => {
 
@@ -15,9 +15,7 @@ export const DappSection = () => {
       
         <div className="w-full md:w-1/2">
         
-          <div className="flex items-center text-[28px] md:text-[40px] font-semibold mb-5">
-          The <img src="/images/glu.png" alt="" className='h-[40px] md:h-[60px]' /> dapp
-          </div>
+          <TheGluTitle title={'dapp'} />
           
           <img src="/images/glu movil.png" alt="" />
           
@@ -28,12 +26,8 @@ export const DappSection = () => {
             dappSection.subtitleEng
           }
           </p>
-          
-          {/* <LearnMoreBtn boxStyles='' spanishIsActive={spanishIsActive} /> */}
-          
+
         </div>
-        
-        
         
         <div className="flex flex-col gap-4 w-full md:w-1/2">
         

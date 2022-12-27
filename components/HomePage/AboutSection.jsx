@@ -21,6 +21,7 @@ export const AboutSection = () => {
     <Section>
       <ProgramBox spanishIsActive={spanishIsActive} sliderDispatch={sliderDispatch} />
       <AboutTexts spanishIsActive={spanishIsActive} />
+      <h4 className='text-center text-[24px] md:text-[35px] font-medium mt-16'>{spanishIsActive ? 'Programas de prosumidores' : 'Prosumer Programs'}</h4>
       <AboutSlider spanishIsActive={spanishIsActive} slider={slider} sliderDispatch={sliderDispatch} />
       <AboutSliderMobile />
       <CommunityGif style={'hidden md:block'} width='' />

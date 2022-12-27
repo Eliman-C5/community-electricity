@@ -5,7 +5,7 @@ export const ComingSoon = ({spanishIsActive}) => {
   return (
     <div className='w-full flex flex-col justify-center gap-8'>
     
-      <h2 className='title-mobile md:text-center uppercase'>
+      <h2 className='title-mobile md:text-[30px] md:text-center'>
         {
           spanishIsActive ?
           'El servicio de internet de energía para el hogar' :
