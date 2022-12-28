@@ -343,7 +343,7 @@ export const comingSoonItems = [
       esp: 'INTERNET',
       eng: 'INTERNET'
     },
-    src: "/images/comingSoon/internet.png"
+    src: "/images/comingSoon/internet.svg"
   },
   {
     id: 2, 
@@ -351,7 +351,7 @@ export const comingSoonItems = [
       esp: 'ELECTRICIDAD',
       eng: 'ELECTRICITY'
     },
-    src: "/images/comingSoon/electricity.png"
+    src: "/images/comingSoon/electricity.svg"
   },
   {
     id: 3, 
@@ -359,7 +359,7 @@ export const comingSoonItems = [
       esp: 'RESILIENCIA',
       eng: 'RESILIENCY'
     },
-    src: "/images/comingSoon/resiliency.png"
+    src: "/images/comingSoon/resiliency.svg"
   },
   {
     id: 4, 
@@ -367,7 +367,7 @@ export const comingSoonItems = [
       esp: 'RECOMPENSADO',
       eng: 'GET REWARDED'
     },
-    src: "/images/comingSoon/get-rewarded.png"
+    src: "/images/comingSoon/get-rewarded.svg"
   }
 ]
 
