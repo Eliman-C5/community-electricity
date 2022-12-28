@@ -17,10 +17,10 @@ export const ComingSoon = ({spanishIsActive}) => {
       {
         comingSoonItems.map(item => (
           <div className="" key={item.id}>
-            <div className="h-[50px]">
-              <img src={item.src} className='' alt={spanishIsActive ? item.text.esp : item.text.eng} />
+            <div className="h-[50px] flex flex-col justify-center">
+              <img src={item.src} className='mx-auto' alt={spanishIsActive ? item.text.esp : item.text.eng} />
             </div>
-            <p className='text-[12px]'>
+            <p className='text-[12px] text-center'>
             {
               spanishIsActive ?
               item.text.esp :
