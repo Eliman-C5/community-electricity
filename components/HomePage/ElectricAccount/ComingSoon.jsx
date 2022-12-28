@@ -17,7 +17,9 @@ export const ComingSoon = ({spanishIsActive}) => {
       {
         comingSoonItems.map(item => (
           <div className="" key={item.id}>
-            <img src={item.src} className='w-[50px] h-[50px]' alt={spanishIsActive ? item.text.esp : item.text.eng} />
+            <div className="h-[50px]">
+              <img src={item.src} className='' alt={spanishIsActive ? item.text.esp : item.text.eng} />
+            </div>
             <p className='text-[12px]'>
             {
               spanishIsActive ?
