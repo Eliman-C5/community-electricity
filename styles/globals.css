@@ -2,9 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --swiper-navigation-color: #FFF;
-} */
+.about-section-card {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 45px;
+  max-width: 1135px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 680px;
+  background-color: #F2F2F2;
+}
+
+.section-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem/* 8px */;
+  height: 60%;
+  padding-left: 0.75rem/* 12px */;
+  padding-right: 0.75rem/* 12px */;
+  margin-bottom: auto;
+  padding-top: 1rem/* 16px */;
+  padding-bottom: 1rem/* 16px */;
+}
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background-color: #cbd5e1;

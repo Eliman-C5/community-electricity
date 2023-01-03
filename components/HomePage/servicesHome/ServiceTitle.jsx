@@ -3,7 +3,7 @@ import React from 'react'
 export const ServiceTitle = ({ spanishIsActive, style }) => {
   return (
     <div className={`${style}`}>
-      <h2 className='title-mobile md:text-[35px] text-center my-[30px]'>
+      <h2 className='title-mobile md:text-[35px] text-center my-[40px] md:mt-[80px]'>
       {
         spanishIsActive ?
         'Servicio innovador multijugador' :

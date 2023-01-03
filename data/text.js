@@ -645,16 +645,6 @@ export const teamTexts = {
 export const teamMembers = [
   {
     id: 1,
-    src: '/images/team/members/FELIPE_CANO.png',
-    name: 'Felipe Cano',
-    charge: {
-      eng: 'CO-CEO',
-      esp: 'CO-CEO'
-    },
-    linkedin: 'https://www.linkedin.com/in/felipe-cano-12459224/'
-  },
-  {
-    id: 2,
     src: '/images/team/members/helena_donoso.png',
     name: 'Helena Donoso',
     charge: {
@@ -662,6 +652,16 @@ export const teamMembers = [
       esp: 'CO-CEO'
     },
     linkedin: 'https://www.linkedin.com/in/helena-donoso-a46674b0/'
+  },
+  {
+    id: 2,
+    src: '/images/team/members/FELIPE_CANO.png',
+    name: 'Felipe Cano',
+    charge: {
+      eng: 'CO-CEO',
+      esp: 'CO-CEO'
+    },
+    linkedin: 'https://www.linkedin.com/in/felipe-cano-12459224/'
   },
   {
     id: 3,
