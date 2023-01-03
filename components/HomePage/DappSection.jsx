@@ -15,7 +15,7 @@ export const DappSection = () => {
       
         <div className="w-full md:w-1/2">
         
-          <TheGluTitle title={'dapp'} />
+          <TheGluTitle title={'dapp'} align='' />
           
           <img src="/images/glu movil.png" alt="" />
           

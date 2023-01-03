@@ -15,7 +15,7 @@ export const Experts = () => {
       {
         spanishIsActive ?
         'Equipo asesor' :
-        'Advisory of Experts'
+        'Advisory Team'
       }
       </h4>
       <TeamMembers cards={teamExperts} />
