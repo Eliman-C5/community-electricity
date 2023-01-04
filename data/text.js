@@ -343,7 +343,7 @@ export const comingSoonItems = [
       esp: 'INTERNET',
       eng: 'INTERNET'
     },
-    src: "/images/comingSoon/internet.svg"
+    src: "/images/comingSoon/wifi.svg"
   },
   {
     id: 2, 
