@@ -8,14 +8,14 @@ export const ZonesHeader = () => {
 
   return (
     <HeaderWrapper
-      styles={'bg-[url("/images/zones/zonesHeader.png")] h-[578px] justify-center'}
+      styles={'bg-[url("/images/zones/solar-energy-mobile.png")] sm:bg-[url("/images/zones/solar-energy.png")] h-[578px] justify-center'}
     >
-      <div className="flex px-8 md:px-6 gap-4">
+      <div className="flex w-full justify-around md:justify-center md:gap-16">
         <h4 className="font-bold text-[20px] md:text-[22px]" >
           {
             spanishIsActive ?
-            'Zona de innovación Climatetech' :
-            'Climatetech Innovation Zone'
+            'Proyectos' :
+            'Projects'
           }
         </h4>
         <a className="" href="https://www.climatetechinnovationzone.io/" rel="noreferrer" target='_blank'>

@@ -27,17 +27,17 @@ export const Media = () => {
       <div className="grid grid-cols-2 sm:hidden">
       {
         mediaImg.first.map(img => (
-          <MediaCard src={img.src} alt={img.alt} key={img.id} style='shrink' />
+          <MediaCard src={img.src} alt={img.alt} key={img.id} pageLink={img.link} text={img.text} style='shrink' />
         ))
       }
       {
         mediaImg.second.map(img => (
-          <MediaCard src={img.src} alt={img.alt} key={img.id} style='shrink' />
+          <MediaCard src={img.src} alt={img.alt} key={img.id} pageLink={img.link} text={img.text} style='shrink' />
         ))
       }
       {
         mediaImg.third.map(img => (
-          <MediaCard src={img.src} alt={img.alt} key={img.id} style='shrink' />
+          <MediaCard src={img.src} alt={img.alt} key={img.id} pageLink={img.link} text={img.text} style='shrink' />
         ))
       }
       </div>

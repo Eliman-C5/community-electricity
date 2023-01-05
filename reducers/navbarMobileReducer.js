@@ -20,9 +20,9 @@ export const navbarMobileReducer = (state, action) => {
 
       return 'MARKETPLACE'
       
-    case NAVBAR_TYPES.ZONES:
+    case NAVBAR_TYPES.PROJECTS:
 
-      return 'ZONES'
+      return 'PROJECTS'
     
     default:
       return state

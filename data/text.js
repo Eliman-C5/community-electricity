@@ -33,9 +33,9 @@ export const navLinks = [
   },
   {
     id: 4,
-    title: 'Innovation zones',
-    src: '/zones',
-    type: NAVBAR_TYPES.ZONES
+    title: 'Projects',
+    src: '/projects',
+    type: NAVBAR_TYPES.PROJECTS
   },
 ];
 
@@ -65,9 +65,9 @@ export const navDesktopLinks = [
   },
   {
     id: 4,
-    title: 'Innovation zones',
-    src: '/zones',
-    type: NAVBAR_TYPES.ZONES
+    title: 'Projects',
+    src: '/projects',
+    type: NAVBAR_TYPES.PROJECTS
   },
 ];
 
@@ -162,21 +162,124 @@ export const dappSection = {
   ]
 }
 
+export const superNodeSection = {
+  subtitleEng: 'Internet of Energy',
+  subtitleEsp: 'Internet de la energía',
+  esp: [
+    {
+      id: 1,
+      text: 'Nuestro súper nodo puede integrar múltiples dispositivos a través de API locales y conexiones MODBUS. Esto nos permite enviar y recibir información desde y hacia muchos dispositivos, convirtiendo el nodo en un concentrador central y unificado, independientemente de las condiciones específicas del cliente.',
+    },
+    {
+      id: 2,
+      text: 'Nuestro nodo puede monitorear el flujo fiscal y la calidad de la energía en tiempo real, lo que nos permite integrar sistemas descentralizados como contratos inteligentes de blockchain y sistemas predictivos mientras transforma todos los activos conectados en componentes de red flexibles y monetizables.',
+    },
+  ],
+  eng: [
+    {
+      id: 1,
+      text: 'Our super node can integrate multiple devices via local API and MODBUS connections. This allows us to send and receive information from and to many devices turning the node into a central and unified hub regardless of the customer-specific conditions.',
+    },
+    {
+      id: 2,
+      text: 'Our node can monitor the fiscal flow and quality of energy in real-time, allowing us to integrate decentralized systems like blockchain smart contracts and predictive systems while transforming all assets connected into flexible monetizable network components.',
+    },
+  ],
+}
+
 export const mediaImg = {
   first: [
-    {id: 1, src: '/images/media/Smartenergy.png', alt: 'Smartenergy'},
-    {id: 2, src: '/images/media/Microgrid.png', alt: 'Microgrid'},
-    {id: 3, src: '/images/media/energy storage.png', alt: 'energy storage'},
+    {
+      id: 1, 
+      src: '/images/media/Smartenergy.png', 
+      alt: 'Smartenergy', 
+      text: {
+        eng: 'Los Angeles Disadvantaged Community to Host The Largest Advanced Energy Community Built on Blockchain.',
+        esp: 'La comunidad desfavorecida de Los Ángeles albergará la comunidad de energía avanzada más grande construida en Blockchain.'
+      },
+      link: 'https://www.smart-energy.com/'
+    },
+    {
+      id: 2, 
+      src: '/images/media/Microgrid.png', 
+      alt: 'Microgrid',
+      text: {
+        eng: 'California Demonstration Brings Prosumers into Energy Markets.',
+        esp: 'La demostración de California lleva a los prosumidores a los mercados energéticos.'
+      },
+      link: 'https://www.microgridknowledge.com/'
+    },
+    {
+      id: 3, 
+      src: '/images/media/energy storage.png', 
+      alt: 'energy storage',
+      text: {
+        eng: '‘Feasible community-scale decarbonisation’: LA neighbourhood gets blockchain-backed energy solution.',
+        esp: '`Descarbonización factible a escala comunitaria`: el vecindario de Los Ángeles obtiene una solución energética respaldada por blockchain.'
+      },
+      link: 'https://www.energy-storage.news/'
+    },
   ],
   second: [
-    {id: 1, src: '/images/media/Tahoo.png', alt: 'Yahoo'},
-    {id: 2, src: '/images/media/Medium.png', alt: 'Medium'},
-    {id: 3, src: '/images/media/The verge.png', alt: 'The verge'},
+    {
+      id: 1, 
+      src: '/images/media/Tahoo.png', 
+      alt: 'Yahoo',
+      text: {
+        eng: 'Los Angeles Disadvantaged Community to Host The Largest Advanced Energy Community Built on Blockchain.',
+        esp: 'La comunidad desfavorecida de Los Ángeles albergará la comunidad de energía avanzada más grande construida en Blockchain.'
+      },
+      link: 'https://search.yahoo.com/web'
+    },
+    {
+      id: 2, 
+      src: '/images/media/Medium.png', 
+      alt: 'Medium', 
+      text: {
+        esp: 'Community Electricity and Energy Web anuncian asociación para llevar tecnología descentralizada a comunidades desfavorecidas de todo el continente americano.',
+        eng: 'Community Electricity and Energy Web Announce Partnership to Bring Decentralized Tech to Disadvantaged Communities Across the Americas.'
+      },
+      link: 'https://medium.com/'
+    },
+    {
+      id: 3,
+      src: '/images/media/The verge.png', 
+      alt: 'The verge', 
+      text: {
+        esp: 'El plan climático de Biden gastaría $ 2 billones en una oferta para impulsar la economía, el 40% se asignará a las comunidades desfavorecidas.',
+        eng: 'Biden climate plan would spend $2 trillion in bid to boost economy, 40% to be allocated to Disadvantaged Communities.'
+      },
+      link: 'https://www.theverge.com/'
+    },
   ],
   third: [
-    {id: 1, src: '/images/media/Cision.png', alt: 'Cision'},
-    {id: 2, src: '/images/media/Vox.png', alt: 'Vox'},
-    {id: 3, src: '/images/media/Coindesk.png', alt: 'Coindesk'},
+    {
+      id: 1, 
+      src: '/images/media/Cision.png', 
+      alt: 'Cision', 
+      text: {
+        eng: 'Los Angeles hosts world’s largest blockchain-enabled advanced energy community.',
+        esp: 'Los Ángeles alberga la comunidad de energía avanzada habilitada para blockchain más grande del mundo.'
+      },
+      link: 'https://www.cision.com/'},
+    {
+      id: 2, 
+      src: '/images/media/Vox.png', 
+      alt: 'Vox', 
+      text: {
+        eng: 'Biden can’t move the needle on environmental justice without these 2 things.',
+        esp: 'Biden no puede mover la aguja de la justicia ambiental sin estas 2 cosas.',
+      },
+      link: 'https://www.vox.com/recode/2019/5/1/18523528/can-anyone-tame-the-next-internet'},
+    {
+      id: 3, 
+      src: '/images/media/Coindesk.png', 
+      alt: 'Coindesk', 
+      text: {
+        eng: 'California Agency Backs Green-Energy Pilot Using RSK’s Bitcoin Smart Contracts.',
+        esp: 'La agencia de California respalda el piloto de energía verde utilizando los contratos inteligentes de Bitcoin de RSK.'
+      },
+      link: 'https://www.coindesk.com/'},
   ],
 }
 
@@ -343,7 +446,7 @@ export const comingSoonItems = [
       esp: 'INTERNET',
       eng: 'INTERNET'
     },
-    src: "/images/comingSoon/wifi.svg"
+    src: "/images/comingSoon/Internet.svg"
   },
   {
     id: 2, 
@@ -648,8 +751,8 @@ export const teamMembers = [
     src: '/images/team/members/helena_donoso.png',
     name: 'Helena Donoso',
     charge: {
-      eng: 'CO-CEO',
-      esp: 'CO-CEO'
+      eng: 'Chief Executive Officer',
+      esp: 'Directora ejecutiva'
     },
     linkedin: 'https://www.linkedin.com/in/helena-donoso-a46674b0/'
   },
@@ -658,8 +761,8 @@ export const teamMembers = [
     src: '/images/team/members/FELIPE_CANO.png',
     name: 'Felipe Cano',
     charge: {
-      eng: 'CO-CEO',
-      esp: 'CO-CEO'
+      eng: 'Chief Strategy Officer',
+      esp: 'Director de estrategia'
     },
     linkedin: 'https://www.linkedin.com/in/felipe-cano-12459224/'
   },
