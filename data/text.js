@@ -197,7 +197,7 @@ export const mediaImg = {
         eng: 'Los Angeles Disadvantaged Community to Host The Largest Advanced Energy Community Built on Blockchain.',
         esp: 'La comunidad desfavorecida de Los Ángeles albergará la comunidad de energía avanzada más grande construida en Blockchain.'
       },
-      link: 'https://www.smart-energy.com/'
+      link: 'https://www.smart-energy.com/industry-sectors/smart-grid/los-angeles-hosts-worlds-largest-blockchain-enabled-advanced-energy-community/'
     },
     {
       id: 2, 
@@ -207,7 +207,7 @@ export const mediaImg = {
         eng: 'California Demonstration Brings Prosumers into Energy Markets.',
         esp: 'La demostración de California lleva a los prosumidores a los mercados energéticos.'
       },
-      link: 'https://www.microgridknowledge.com/'
+      link: 'https://www.microgridknowledge.com/distributed-energy/article/11428498/california-demonstration-brings-prosumers-into-energy-markets'
     },
     {
       id: 3, 
@@ -217,7 +217,7 @@ export const mediaImg = {
         eng: '‘Feasible community-scale decarbonisation’: LA neighbourhood gets blockchain-backed energy solution.',
         esp: '`Descarbonización factible a escala comunitaria`: el vecindario de Los Ángeles obtiene una solución energética respaldada por blockchain.'
       },
-      link: 'https://www.energy-storage.news/'
+      link: 'https://www.energy-storage.news/feasible-community-scale-decarbonisation-la-neighbourhood-gets-blockchain-backed-energy-solution/'
     },
   ],
   second: [
@@ -229,7 +229,7 @@ export const mediaImg = {
         eng: 'Los Angeles Disadvantaged Community to Host The Largest Advanced Energy Community Built on Blockchain.',
         esp: 'La comunidad desfavorecida de Los Ángeles albergará la comunidad de energía avanzada más grande construida en Blockchain.'
       },
-      link: 'https://search.yahoo.com/web'
+      link: 'https://www.yahoo.com/video/blockchain-startup-evshare-participates-20m-130000493.html'
     },
     {
       id: 2, 
@@ -239,7 +239,7 @@ export const mediaImg = {
         esp: 'Community Electricity and Energy Web anuncian asociación para llevar tecnología descentralizada a comunidades desfavorecidas de todo el continente americano.',
         eng: 'Community Electricity and Energy Web Announce Partnership to Bring Decentralized Tech to Disadvantaged Communities Across the Americas.'
       },
-      link: 'https://medium.com/'
+      link: 'https://medium.com/energy-web-insights/community-electricity-and-energy-web-announce-partnership-to-bring-decentralized-tech-to-2f105150a3db'
     },
     {
       id: 3,
@@ -261,7 +261,7 @@ export const mediaImg = {
         eng: 'Los Angeles hosts world’s largest blockchain-enabled advanced energy community.',
         esp: 'Los Ángeles alberga la comunidad de energía avanzada habilitada para blockchain más grande del mundo.'
       },
-      link: 'https://www.cision.com/'},
+      link: 'https://www.prweb.com/releases/los_angeles_disadvantaged_community_to_host_the_largest_advanced_energy_community_built_on_blockchain/prweb17128919.htm'},
     {
       id: 2, 
       src: '/images/media/Vox.png', 
