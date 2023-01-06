@@ -446,7 +446,7 @@ export const comingSoonItems = [
       esp: 'INTERNET',
       eng: 'INTERNET'
     },
-    src: "/images/comingSoon/Internet.svg"
+    src: "/images/comingSoon/internet.svg"
   },
   {
     id: 2, 
