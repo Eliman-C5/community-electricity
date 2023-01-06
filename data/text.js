@@ -122,8 +122,8 @@ export const aboutSection = {
 }
 
 export const dappSection = {
-  subtitleEsp: 'Conecta sin problemas e incentiva a los miembros de la red a descarbonizar colectivamente y ser premiados',
-  subtitleEng: 'Seamlessly connects and incentivizes network members to decarbonize collectively and get rewarded.',
+  subtitleEsp: 'Nuestra red social de energía dapp involucra, conecta e incentiva a los miembros de la red para descarbonizar y obtener recompensas.',
+  subtitleEng: 'Our energy social network dapp seamlessly engage,connects and incentivizes network members to decarbonize and get rewarded.',
   esp: [
     {
       id: 1,
