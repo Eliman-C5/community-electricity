@@ -6,7 +6,6 @@ import { CommunityGif } from '../Atoms/CommunityGif'
 
 export const SuperNodeSection = () => {
   return (
-    <>
       <Section>
       
         <div className="flex flex-col md:flex-row items-center gap-0 md:gap-28">
@@ -24,11 +23,6 @@ export const SuperNodeSection = () => {
         
         </div>
         
-        <CommunityGif style={'hidden md:block'} width='' />
-        
       </Section>
-      
-      <CommunityGif style={'md:hidden'} />
-    </>
   )
 }

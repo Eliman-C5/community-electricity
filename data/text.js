@@ -137,10 +137,10 @@ export const dappSection = {
       id: 3,
       text: 'Permite a los miembros optimizar la producción eléctrica en conjunción con baterias. Proporcionar flexibilidad de activos maximizando los ingresos mediante la venta de excendetes de electricidad a precios tácticos a la red y pronto entre vecinos.',
     },
-    {
-      id: 4,
-      text: 'Un sistema operativo comunitario que usa IA y blockchain para conectar, administrar y optimizar todos los activos en el hogar, lo que incentiva los esfuerzos de micro descarbonización en el borde de la red.'
-    }
+    // {
+    //   id: 4,
+    //   text: 'Un sistema operativo comunitario que usa IA y blockchain para conectar, administrar y optimizar todos los activos en el hogar, lo que incentiva los esfuerzos de micro descarbonización en el borde de la red.'
+    // }
   ],
   eng: [
     {
@@ -155,10 +155,10 @@ export const dappSection = {
       id: 3,
       text: 'Allows members to optimize electricity production in conjunction with batteries. Providing asset flexibility maximizing revenues by selling surplus electricity at tactical prices back to the grid and soon between neighbors.',
     },
-    {
-      id: 4,
-      text: 'A CommunityOS that uses AI and blockchain to connect, manage and optimize all assets in the home—incentivizing micro decarbonization efforts at the edge of the grid.'
-    }
+    // {
+    //   id: 4,
+    //   text: 'A CommunityOS that uses AI and blockchain to connect, manage and optimize all assets in the home—incentivizing micro decarbonization efforts at the edge of the grid.'
+    // }
   ]
 }
 
@@ -185,6 +185,31 @@ export const superNodeSection = {
       text: 'Our node can monitor the fiscal flow and quality of energy in real-time, allowing us to integrate decentralized systems like blockchain smart contracts and predictive systems while transforming all assets connected into flexible monetizable network components.',
     },
   ],
+}
+
+export const communitySection = {
+  subtitleEng: 'Energy Community',
+  subtitleEsp: 'Energía Community',
+  esp: [
+    {
+      id: 1,
+      text: 'Las comunidades de prosumidores son redes abiertas y voluntarias que tienen objetivos comunitarios económicos, ambientales y sociales, que benefician primero a las personas.'
+    },
+    {
+      id: 2,
+      text: 'El objetivo principal de las comunidades de prosumidores es conectar en múltiples redes tipos de activos de energía distribuida, con el fin de monitorear, pronosticar, optimizar y comercializar sus cargas colectivas de electricidad generada en beneficio de las personas, los edificios y las infraestructuras.'
+    }
+  ],
+  eng: [
+    {
+      id: 1,
+      text: 'Prosumer communities are open and voluntary networks aims with economic, environment and social community objectives, benefit people first.'
+    },
+    {
+      id: 2,
+      text: 'Prosumer Communities main objective is to network multiple types of distributed energy assets, in order to monitor, forecast, optimize and trade their collective electricity generated loads of benefiting people, buildings and infrastructures.'
+    }
+  ]
 }
 
 export const mediaImg = {

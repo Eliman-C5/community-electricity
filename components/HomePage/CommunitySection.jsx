@@ -1,23 +1,22 @@
-import { dappSection } from '../../data/text'
+import {  communitySection } from '../../data/text'
 import Section from '../Wrappers/NormalAndFadeInSection'
 import {GluCardsWrapper} from '../Atoms/GluCardsWrapper'
 import {GluWrapper} from '../Atoms/GluWrapper'
 
-export const DappSection = () => {
-
+export const CommunitySection = () => {
   return (
     <Section>
       <div className="flex flex-col md:flex-row items-center gap-0 md:gap-28">
       
         <GluWrapper 
-          gluTitle={'app'}
-          gluImg='/images/glu movil.png'
-          subtitle={dappSection}
+          gluTitle={'community'}
+          gluImg='/images/communitySection.png'
+          subtitle={communitySection}
         />
         
         <GluCardsWrapper 
-          arr={dappSection}
-          lastListItem={3}
+          arr={communitySection}
+          lastListItem={2}
         />
         
       </div>
