@@ -10,7 +10,8 @@ export const CommunitySection = () => {
       
         <GluWrapper 
           gluTitle={'community'}
-          gluImg='/images/communitySection.png'
+          gluImg=''
+          video={true}
           subtitle={communitySection}
         />
         

@@ -4,7 +4,7 @@ import { LanguageContext } from '../../context/LanguageProvider'
 import { TheGluTitle } from '../HomePage/Dapp/TheGluTitle'
 import { ArrowBtn } from './ArrowBtn'
 
-export const GluWrapper = ({gluTitle, gluImg, subtitle}) => {
+export const GluWrapper = ({gluTitle, gluImg, subtitle, video = false}) => {
 
   const {spanishIsActive, setIsModalActive} = useContext(LanguageContext)
 
@@ -13,7 +13,11 @@ export const GluWrapper = ({gluTitle, gluImg, subtitle}) => {
         
       <TheGluTitle title={gluTitle} align='' />
           
-      <img src={gluImg} alt={gluTitle} />
+      {
+        video ?
+        <video src="https://res.cloudinary.com/datsipxkz/video/upload/v1671112467/Community/community-gif_ngzyfg.mp4" autoPlay muted loop playsInline className={``} /> :
+        <img src={gluImg} alt={gluTitle} />
+      }
           
       <p className='my-4 font-bold'>
         {
